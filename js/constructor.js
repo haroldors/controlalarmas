@@ -1,7 +1,7 @@
 /*Esta funcion crea la estructiura de login*/
 function funconstructor001() {
     /*se construye la estructura marco*/
-    document.body.style.background = "#000000 url('images/Fondo001.jpg')";
+    document.body.style.background = "#000000 url('images/fondo001.jpg')";
 
     /*la siguiente cadena de instrucciones crea el la estructura de login*/
     document.body.innerHTML="";
