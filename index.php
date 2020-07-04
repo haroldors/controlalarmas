@@ -8,18 +8,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="shortcut icon" href="favicon.ico">
 
-    <link type="text/css" href="bootstrap337dist/css/bootstrap.css" rel="stylesheet">
-    <link type="text/css" href="fontawesome470/css/font-awesome.css" rel="stylesheet">
+    <link type="text/css" href="bootstrap-450-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link type="text/css" href="fontawesomepro5131web/css/font-awesome.min.css" rel="stylesheet">
 
-    <link type="text/css" href="DataTables/DataTables11016/css/dataTables.bootstrap4.min.css" rel="stylesheet">
+    <!-- <link type="text/css" href="DataTables/DataTables11016/css/dataTables.bootstrap4.min.css" rel="stylesheet"> -->
 
-    <link type="text/css" href="css/Style001.min.css" rel="stylesheet">
-    <link type="text/css" href="css/CssAutoGenerado.css" rel="stylesheet">
+    <!-- <link type="text/css" href="css/Style001.min.css" rel="stylesheet"> -->
+    <!-- <link type="text/css" href="css/CssAutoGenerado.css" rel="stylesheet"> -->
 
-    <script type="text/javascript" src="jquery321min/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="bootstrap337dist/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="DataTables/DataTables11016/js/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" src="DataTables/DataTables11016/js/dataTables.bootstrap4.min.js"></script>
+    <script type="text/javascript" src="jquery351min/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap-450-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="DataTables/DataTables-1.10.21/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="DataTables/DataTables-1.10.21/js/dataTables.bootstrap4.min.js"></script>
 
     <script type="text/javascript" src="js/constructor.min.js"></script>
     <script type="text/javascript" src="js/interfaz.min.js"></script>
