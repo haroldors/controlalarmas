@@ -26,7 +26,11 @@ function getRealIP() {
 
 echo "El ID Sensor: " . $_GET['idsensor'] . "<br>";
 
-echo "El ID Sensor: " .  $_GET['reportesensor'] . "<br>";
+echo "El Reporte Sensor: " .  $_GET['reportesensor'] . "<br>";
+
+echo "La IP: " .  getRealIP() . "<br>";
+
+echo "La Fecha: " .  $fechalargaregistro . "<br>";
 
 
 ?>
