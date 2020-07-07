@@ -24,9 +24,9 @@ function getRealIP() {
     }
 }
 
-echo "El ID Sensor: " . $_POST['idsensor'] . "<br>";
+echo "El ID Sensor: " . $_GET['idsensor'] . "<br>";
 
-echo "El ID Sensor: " .  $_POST['reportesensor'] . "<br>";
+echo "El ID Sensor: " .  $_GET['reportesensor'] . "<br>";
 
 
 ?>
