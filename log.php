@@ -33,4 +33,14 @@ echo "La IP: " .  getRealIP() . "<br>";
 echo "La Fecha: " .  $fechalargaregistro . "<br>";
 
 
+$varselect = $conexion -> prepare('INSERT INTO reportessensores (idsensor,fechalargaregistro,reportesensor,ipsensor) VALUES (:id,:fechalargaregistro0,:reportesensor,:ipsensor)');
+$varselect -> execute(
+		array(
+			':id' => $_GET['idsensor'],
+			':fechalargaregistro0' => $fechalargaregistro,
+			':reportesensor' => $_GET['reportesensor'],
+			':ipsensor' => getRealIP()
+		)
+	);
+
 ?>
