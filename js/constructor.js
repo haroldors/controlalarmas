@@ -20,7 +20,7 @@ function funconstructor001() {
         $('body').append('<div id="iddivcontainerfuncon001" class="container col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6 col-lg-offset-4 col-lg-4" style="padding-top:100px"></div>');
             $('#iddivcontainerfuncon001').append('<div id="iddivcardfuncons001" class="card text-white bg-dark mb-3" style="max-width: 36rem;"></div>');
                 $('#iddivcardfuncons001').append('<img src="images/SmallLogo.png" width="166" height="100" class="img-fluid card-img-top" alt="Brainiac"></img>');
-                $('#iddivcardfuncons001').append('<div id="iddivcardheaderfuncon001" class="card-header text-center">Formulario Acceso</div>');
+                $('#iddivcardfuncons001').append('<div id="iddivcardheaderfuncon001" class="card-header text-center">[ Control Acceso ]</div>');
 
                 $('#iddivcardfuncons001').append('<div id="iddivcardbodyfuncon001" class="card-body"></div>');
                     $('#iddivcardbodyfuncon001').append('<form id="idformfuncons001"></form>');
