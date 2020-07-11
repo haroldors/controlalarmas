@@ -33,7 +33,7 @@ function funconstructor001() {
                             $('#idformrow002funcon001').append('<label for="iddivinput002funcons001" class="col-sm-4 col-form-label">Password:</label>');
                             $('#idformrow002funcon001').append('<div id="iddivinput002funcons001" class="col-sm-8"></div>');
                                 $('#iddivinput002funcons001').append('<input type="text" class="form-control" id="idinputpasswordfuncons001" placeholder="Ingrese Password...">');                                
-                        $('#idformfuncons001').append('<div id="idformrow003funcon001" class="form-group row"></div>');
+                        $('#idformfuncons001').append('<div id="idformrow003funcon001" class="form-group row text-center"></div>');
                             $('#idformrow003funcon001').append('<button type="button" class="btn btn-light"><i class="fab fa-tiktok"></i> Aceptar</button>');
 
     /*la siguiente cadena de instrucciones crea el mensaje de alertas*/
