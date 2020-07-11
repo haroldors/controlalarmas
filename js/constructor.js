@@ -69,7 +69,7 @@ function funconstructor002() {
     /*se crea la barra menu superior del menu global*/
 
     document.body.innerHTML = "";
-    document.body.style.background = "#000000 url('images/Fondo001.jpg')";
+/*     document.body.style.background = "#000000 url('images/Fondo001.jpg')";
     document.body.paddingTop = "80px";
         $('body').append('<nav id="idnavbarfun002" class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation"></nav>');
             $('#idnavbarfun002').append('<div class="navbar-header" id="iddivnavbarheaderfun002"></div>');
@@ -87,6 +87,10 @@ function funconstructor002() {
                     $('#IDMenuSuperior').append('<li id="IDMenuSuperior004"><a href="#" onclick="link068()"><i class="fa fa-file-text-o fa-1x" aria-hidden="true"></i> Validacion</a></li>');
                     $('#IDMenuSuperior').append('<li id="IDMenuSuperior005"><a href="#" onclick="link075()"><i class="fa fa-line-chart fa-1x" aria-hidden="true"></i> Reportes</a></li>');
                     $('#IDMenuSuperior').append('<li id="IDMenuSuperior006"><a href="#" onclick="funsalir()"><span class="glyphicon glyphicon-off"> Salir</span></a></li>');
+ */
+
+    $('body').append('<nav class="navbar navbar-dark bg-dark">  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">    <span class="navbar-toggler-icon"></span>  </button></nav>');
+
 
     /*Fin de la creacion de la Barra Superior*/
 
