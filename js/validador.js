@@ -7,5 +7,5 @@ function link001() {
 }
 
 function link002() {
-	alert("prueba");
+	funconstructor002();
 }
