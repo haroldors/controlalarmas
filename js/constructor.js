@@ -22,12 +22,12 @@ function funconstructor001() {
                 $('#iddivcardfuncons001').append('<img src="images/SmallLogo.png" width="166" height="100 class="card-img-top" alt="Brainiac"></img>');
                 $('#iddivcardfuncons001').append('<div id="iddivcardheaderfuncon001" class="card-header">Formulario Acceso</div>');
 
-                $('#iddivcardfuncons001').append('<div id="iddivcardbodyfuncon001" class="card-body">Formulario Cuerpo</div>');
+                $('#iddivcardfuncons001').append('<div id="iddivcardbodyfuncon001" class="card-body"></div>');
                     $('#iddivcardbodyfuncon001').append('<form id="idformfuncons001"></form>');
                         $('#idformfuncons001').append('<div id="idformrow001funcon001" class="form-group row"></div>');
-                            $('#idformrow001funcon001').append('<label for="idinputusuariofuncons001" class="col-sm-2 col-form-label col-form-label-lg">Usuario:</label>');
-                            $('#idformrow001funcon001').append('<div id="iddivinputfuncons001" class="col-sm-10"></div>');
-                                $('#iddivinputfuncons001').append('<input type="text" class="form-control form-control-lg" id="idinputusuariofuncons001" placeholder="col-form-label-lg">');
+                            $('#idformrow001funcon001').append('<label for="idinputusuariofuncons001" class="col-sm-4 col-form-label">Usuario:</label>');
+                            $('#idformrow001funcon001').append('<div id="iddivinputfuncons001" class="col-sm-8"></div>');
+                                $('#iddivinputfuncons001').append('<input type="text" class="form-control" id="idinputusuariofuncons001" placeholder="col-form-label-lg">');
 
     /*la siguiente cadena de instrucciones crea el mensaje de alertas*/
     $('body').append('<div class="modal" id="IDModalMensaje" tabidex="-1" role="dialog" aria-labelledy="miModalTitulo" aria-hidden="true"></div>');
