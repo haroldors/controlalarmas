@@ -55,6 +55,6 @@ function funconstructor001() {
     /*fin*/
 
     /*a continuacion se preselecciona el campo del Usuario*/
-    document.getElementById('IDInputUsuario').focus();
+    document.getElementById('idinputusuariofuncons001').focus();
     /*fin de la instruccion*/
 }
