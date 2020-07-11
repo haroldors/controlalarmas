@@ -156,26 +156,26 @@ function funconstructor002() {
 function funconstructor003() {    
     document.getElementById('iddivcardbodyfuncons002').innerHTML = '';
     $('#iddivcardbodyfuncons002').append('<div id="idtableresponsivefuncons003" class="table-responsive"></div>');
-    $('#idtableresponsivefuncons003').append('<table id="IDTablaListado" class="table table-hover table-bordered table-condensed"></table>');
-        $('#IDTablaListado').append('<caption id="IDCaptionTablaListado"></caption>');
-        $('#IDTablaListado').append('<thead id="IDHeadTablaListado"></thead>');
-        $('#IDTablaListado').append('<tbody id="IDBodyTablaListado"></tbody>');
+    $('#idtableresponsivefuncons003').append('<table id="idtablalistado" class="table table-hover table-bordered table-condensed"></table>');
+        $('#idtablalistado').append('<caption id="idcaptiontablalistado"></caption>');
+        $('#idtablalistado').append('<thead id="idheadtablalistado"></thead>');
+        $('#idtablalistado').append('<tbody id="idbodytablalistado"></tbody>');
 }
 
 /* construye la estructura interna de la tabla de lista de sensores */
 function funconstructor004() {
 
-    document.getElementById('IDCaptionTablaListado').innerHTML = 'Listado de Reportes de Sensores';
-    document.getElementById('IDHeadTablaListado').innerHTML = '';
-    $('#IDHeadTablaListado').append('<tr id="IDFilaHeadTablaListado" class="success"></tr>');
-        $('IDFilaHeadTablaListado').append('<th>Item</th>');
-        $('IDFilaHeadTablaListado').append('<th>-</th>');
-        $('IDFilaHeadTablaListado').append('<th>PATENTE</th>');
-        $('IDFilaHeadTablaListado').append('<th>MARCA</th>');
-        $('IDFilaHeadTablaListado').append('<th>MODELO</th>');
-        $('IDFilaHeadTablaListado').append('<th>ESTADO</th>');
-        $('IDFilaHeadTablaListado').append('<th>-</th>');
+    document.getElementById('idcaptiontablalistado').innerHTML = 'Listado de Reportes de Sensores';
+    document.getElementById('idheadtablalistado').innerHTML = '';
+    $('#idheadtablalistado').append('<tr id="idfilaheadtablalistado" class="success"></tr>');
+        $('idfilaheadtablalistado').append('<th>Item</th>');
+        $('idfilaheadtablalistado').append('<th>-</th>');
+        $('idfilaheadtablalistado').append('<th>PATENTE</th>');
+        $('idfilaheadtablalistado').append('<th>MARCA</th>');
+        $('idfilaheadtablalistado').append('<th>MODELO</th>');
+        $('idfilaheadtablalistado').append('<th>ESTADO</th>');
+        $('idfilaheadtablalistado').append('<th>-</th>');
 
-    document.getElementById('IDBodyTablaListado').innerHTML = '';
+    document.getElementById('idbodytablalistado').innerHTML = '';
 
 }
