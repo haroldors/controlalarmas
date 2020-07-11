@@ -109,4 +109,30 @@ function funconstructor002() {
     /*se crea el contenedor del cuerpo del sistema*/
     $('body').append('<div class="container-fluid" id="IDDivContainerCuerpo" style="z-index: 1041"></div>');
     /*fin de la creacion del contenedor del cuerpo*/
+
+    /*se crea la estructura para el Modal del Formulario*/
+    $('body').append('<div class="modal" id="IDModalFormulario" tabidex="-1" role="dialog" aria-labelledy="miModalTitulo" aria-hidden="true" style="z-index: 1042"></div>');
+        $('#IDModalFormulario').append('<div class="modal-dialog modal-lg"><div id="IDModalFormularioModalContent" class="modal-content"></div></div>');
+            $('#IDModalFormularioModalContent').append('<div class="modal-header" id="IDModalFormularioheader" style="background-color:#dedede"></div>');
+                $('#IDModalFormularioheader').append('<button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>');
+                $('#IDModalFormularioheader').append('<h4 class="modal-title" id="IDModalFormularioTitulo">Grafica</h4>');
+            $('#IDModalFormularioModalContent').append('<div class="modal-body" id="IDModalFormulariobody"></div>');
+            $('#IDModalFormularioModalContent').append('<div class="modal-footer" id="IDModalFormulariofooter" style="background-color:#dedede"></div>');
+                $('#IDModalFormulariofooter').append('<button type="button" class="btn btn-info" data-dismiss="modal">Cerrar</button>');
+    /*fin*/
+    
+        /*se crea el efecto de tranparencia para esperar la carga*/
+        $('body').append('<div id="IDDivProcesando001" style="position: fixed;display:none;z-index: 1043"></div>');
+        $('#IDDivProcesando001').append('<div id="IDDivProcesando002" style="display:none" class="container"></div>');
+            $('#IDDivProcesando002').append('<p style="text-align:center"><img src="images/loader.gif" width="128" heigth="128"></img></p>');
+    /*fin del efecto*/
+
+    /*se crea el mensaje de alerta*/
+    $('body').append('<div class="modal" id="IDModalMensaje" tabidex="-1" role="dialog" aria-labelledy="miModalTitulo" aria-hidden="true" style="z-index: 1044"></div>');
+        $('#IDModalMensaje').append('<div class="modal-dialog modal-sm"><div id="idmodalcontentfuncons002" class="modal-content"><div class="modal-header" id="IDModalMensajeheader" style="background-color:#dedede"></div></div></div>');
+            $('#IDModalMensajeheader').append('<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><h4 class="modal-title" id="IDModalMensajeTitulo">Grafica</h4></button>');
+            $('#idmodalcontentfuncons002').append('<div class="modal-body" id="IDModalMensajebody"></div>');
+            $('#idmodalcontentfuncons002').append('<div class="modal-footer" id="IDModalMensajefooter" style="background-color:#dedede"></div>');
+                $('#IDModalMensajefooter').append('<button type="button" class="btn btn-info" data-dismiss="modal">Cerrar</button>');
+    /*fin de la estructura de Mensaje */
 }
