@@ -10,4 +10,6 @@ function link002() {
 	funconstructor002(); /* Construye la estructura marco */
 	funconstructor003(); /* construye la estructura de la tabla */
 	funconstructor004(); /* construye la estructura interna de la tabla de sesnsores */
+	funmensajedeenvio();
 }
+
