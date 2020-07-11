@@ -36,7 +36,7 @@ function funconstructor001() {
                         $('#idformfuncons001').append('<div id="idformrow003funcon001" class="form-group row"></div>');
                             $('#idformrow003funcon001').append('<div class="mx-auto"><button type="button" class="btn btn-light"><i class="fas fa-arrow-alt-circle-right"></i> Aceptar</button></div>');
                 $('#iddivcardfuncons001').append('<div id="iddivcardbody002funcon001" class="card-body"></div>');
-                    $('#iddivcardbody002funcon001').append('<div class="mx-auto">Brainiac SpA</div>');
+                    $('#iddivcardbody002funcon001').append('<div class="row"><div class="mx-auto">Brainiac SpA</div></div>');
 
     /*la siguiente cadena de instrucciones crea el mensaje de alertas*/
     $('body').append('<div class="modal" id="IDModalMensaje" tabidex="-1" role="dialog" aria-labelledy="miModalTitulo" aria-hidden="true"></div>');
