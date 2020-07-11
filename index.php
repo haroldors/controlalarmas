@@ -6,7 +6,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="images/favicon.ico">
 
     <link type="text/css" href="bootstrap-450-dist/css/bootstrap.min.css" rel="stylesheet">
     <link type="text/css" href="fontawesomepro5131web/css/fontawesome.min.css" rel="stylesheet">
