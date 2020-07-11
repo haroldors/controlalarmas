@@ -93,7 +93,7 @@ function funconstructor002() {
         $('#idnavbarfuncons002').append('<button id="idbuttonfuncons002" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation"></button>');
             $('#idbuttonfuncons002').append('<span class="navbar-toggler-icon"></span>');
         $('#idnavbarfuncons002').append('<div id="iddivcollapsefuncons002" class="collapse navbar-collapse" id="navbarTogglerDemo01"></div>');
-            $('#iddivcollapsefuncons002').append('<a class="navbar-brand" href="#"><img src="images/SmallLogo.png" width="166" height="100" class="rounded" alt="Brainiac"></img></a>    ');
+            $('#iddivcollapsefuncons002').append('<a class="navbar-brand" href="#"><img src="images/SmallLogo.jpg" width="83" height="50" class="rounded" alt="Brainiac"></img></a>    ');
             $('#iddivcollapsefuncons002').append('<ul id="idul001funcons002" class="navbar-nav mr-auto mt-2 mt-lg-0"></ul>');
                 $('#idul001funcons002').append('<li class="nav-item"><a class="nav-link" href="#">Panel<span class="sr-only">(current)</span></a></li>');
                 $('#idul001funcons002').append('<li class="nav-item"><a class="nav-link" href="#">Monitoreo</a></li>');
