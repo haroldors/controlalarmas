@@ -18,7 +18,7 @@
   <!-- custom styling for all icons -->
     <!-- <link type="text/css" href="DataTables/DataTables11016/css/dataTables.bootstrap4.min.css" rel="stylesheet"> -->
 
-    <!-- <link type="text/css" href="css/Style001.min.css" rel="stylesheet"> -->
+    <link type="text/css" href="css/style001.css" rel="stylesheet">
     <!-- <link type="text/css" href="css/CssAutoGenerado.css" rel="stylesheet"> -->
 
     <script type="text/javascript" src="jquery351min/jquery-3.5.1.min.js"></script>
