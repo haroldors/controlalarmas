@@ -5,7 +5,7 @@ function funconstructor001() {
 
     /*la siguiente cadena de instrucciones crea el la estructura de login*/
     document.body.innerHTML="";
-    $('body').append('<div id="iddivcontainerfuncon001" class="container col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6 col-lg-offset-4 col-lg-4" style="padding-top:100px"></div>');
+/*     $('body').append('<div id="iddivcontainerfuncon001" class="container col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6 col-lg-offset-4 col-lg-4" style="padding-top:100px"></div>');
         $('#iddivcontainerfuncon001').append('<br><div id="iddivpaneldefaultfuncon001" class="panel panel-default"></div>');
             $('#iddivpaneldefaultfuncon001').append('<div id="iddivpanelheadingfuncon001" class="panel-heading"></div>');
                 $('#iddivpanelheadingfuncon001').append('<h3>Control de Acceso</h3>');
@@ -16,7 +16,12 @@ function funconstructor001() {
                 $('#iddivpanelbodyfuncon001').append('<div id="iddivformgroup002funcon001" class="form-group"></div>');
                     $('#iddivformgroup002funcon001').append('<div id="idinputgroup002funcon001" class="input-group"></div>');
                         $('#idinputgroup002funcon001').append('<span class="input-group-addon"><i class="glyphicon glyphicon-lock" style="width:auto"></i></span><input type="password" id="IDInputPassword" runat="server" class="form-control input-lg" name="user" placeholder="Password" onkeydown="return ValidarEnter(event)" required></input>');
-                $('#iddivpanelbodyfuncon001').append('<button id="BotonValidar" runat="server" class="btn btn-info btn-lg" style="width: 100%" onclick="fun_login()">Validar</button>');
+                $('#iddivpanelbodyfuncon001').append('<button id="BotonValidar" runat="server" class="btn btn-info btn-lg" style="width: 100%" onclick="fun_login()">Validar</button>'); */
+        $('body').append('<div id="iddivcontainerfuncon001" class="container col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6 col-lg-offset-4 col-lg-4" style="padding-top:100px"></div>');
+            $('#iddivcontainerfuncon001').append('<div id="iddivcardfuncons001" class="card"></div>');
+                $('#iddivcardfuncons001').append('<div id="iddivcardheaderfuncon001" class="card-header">Formulario Acceso</div>');
+
+                $('#iddivcardfuncons001').append('<div id="iddivcardbodyfuncon001" class="card-body">Formulario Cuerpo</div>');
 
     /*la siguiente cadena de instrucciones crea el mensaje de alertas*/
     $('body').append('<div class="modal" id="IDModalMensaje" tabidex="-1" role="dialog" aria-labelledy="miModalTitulo" aria-hidden="true"></div>');
