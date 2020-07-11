@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="favicon.ico">
 
     <link type="text/css" href="bootstrap-450-dist/css/bootstrap.min.css" rel="stylesheet">
-    <link type="text/css" href="fontawesomepro5131web/css/font-awesome.min.css" rel="stylesheet">
+    <link type="text/css" href="fontawesomepro5131web/css/fontawesome.min.css" rel="stylesheet">
 
     <!-- <link type="text/css" href="DataTables/DataTables11016/css/dataTables.bootstrap4.min.css" rel="stylesheet"> -->
 
@@ -29,7 +29,7 @@
 </head>
 <body onload="javascript:NoBack()" onsubmit="return false">
 <script>
-funconstructor001();
+link001();
 </script>
 </body>
 </html>
