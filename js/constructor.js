@@ -168,13 +168,12 @@ function funconstructor004() {
     document.getElementById('idcaptiontablalistado').innerHTML = 'Listado de Reportes de Sensores';
     document.getElementById('idheadtablalistado').innerHTML = '';
     $('#idheadtablalistado').append('<tr id="idfilaheadtablalistado" class="success"></tr>');
-        $('idfilaheadtablalistado').append('<th>Item</th>');
-        $('idfilaheadtablalistado').append('<th>-</th>');
-        $('idfilaheadtablalistado').append('<th>PATENTE</th>');
-        $('idfilaheadtablalistado').append('<th>MARCA</th>');
-        $('idfilaheadtablalistado').append('<th>MODELO</th>');
-        $('idfilaheadtablalistado').append('<th>ESTADO</th>');
-        $('idfilaheadtablalistado').append('<th>-</th>');
+        $('#idfilaheadtablalistado').append('<th>Item</th>');
+        $('#idfilaheadtablalistado').append('<th>ID</th>');
+        $('#idfilaheadtablalistado').append('<th>Sensor</th>');
+        $('#idfilaheadtablalistado').append('<th>Fecha</th>');      
+        $('#idfilaheadtablalistado').append('<th>IP</th>');
+        $('#idfilaheadtablalistado').append('<th>-</th>');
 
     document.getElementById('idbodytablalistado').innerHTML = '';
 
