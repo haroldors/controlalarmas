@@ -63,3 +63,35 @@ function funconstructor001() {
     document.getElementById('idinputusuariofuncons001').focus();
     /*fin de la instruccion*/
 }
+
+function funconstructor002() {
+
+    /*se crea la barra menu superior del menu global*/
+
+    document.body.innerHTML = "";
+    document.body.style.background = "#000000 url('images/Fondo001.jpg')";
+    document.body.paddingTop = "80px";
+        $('body').append('<nav id="idnavbarfun002" class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation"></nav>');
+            $('#idnavbarfun002').append('<div class="navbar-header" id="iddivnavbarheaderfun002"></div>');
+                $('#iddivnavbarheaderfun002').append('<button id="buttonnavbarheaderfun002" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"></button>');
+                    $('#buttonnavbarheaderfun002').append('<span class="sr-only">Desplegar Navegacion</span>');
+                    $('#buttonnavbarheaderfun002').append('<span class="icon-bar"></span>');
+                    $('#buttonnavbarheaderfun002').append('<span class="icon-bar"></span>');
+                    $('#buttonnavbarheaderfun002').append('<span class="icon-bar"></span>');
+                $('#iddivnavbarheaderfun002').append('<a class="navbar-brand" href="#">Brainiac</a>');
+            $('#idnavbarfun002').append('<div class="collapse navbar-collapse navbar-ex1-collapse" id="IDBarraMenuSuperior"></div>');
+                $('#IDBarraMenuSuperior').append('<ul class="nav navbar-nav" id="IDMenuSuperior"></ul>');
+                    $('#IDMenuSuperior').append('<li id="IDMenuSuperior001"><a href="#" onclick="link001()"><i class="fa fa-cog fa-1x" aria-hidden="true"></i> Panel</a></li>');
+                    $('#IDMenuSuperior').append('<li id="IDMenuSuperior002"><a href="#" onclick="link002()"><i class="fa fa-tty fa-1x" aria-hidden="true"></i> Despacho</a></li>');
+                    $('#IDMenuSuperior').append('<li id="IDMenuSuperior003"><a href="#" onclick="link049()"><i class="fa fa-truck fa-1x" aria-hidden="true"></i> Logistica</a></li>');
+                    $('#IDMenuSuperior').append('<li id="IDMenuSuperior004"><a href="#" onclick="link068()"><i class="fa fa-file-text-o fa-1x" aria-hidden="true"></i> Validacion</a></li>');
+                    $('#IDMenuSuperior').append('<li id="IDMenuSuperior005"><a href="#" onclick="link075()"><i class="fa fa-line-chart fa-1x" aria-hidden="true"></i> Reportes</a></li>');
+                    $('#IDMenuSuperior').append('<li id="IDMenuSuperior006"><a href="#" onclick="funsalir()"><span class="glyphicon glyphicon-off"> Salir</span></a></li>');
+
+    /*Fin de la creacion de la Barra Superior*/
+
+
+    /*se crea el contenedor del cuerpo del sistema*/
+    $('body').append('<div class="container-fluid" id="IDDivContainerCuerpo" style="z-index: 1041"></div>');
+    /*fin de la creacion del contenedor del cuerpo*/
+}
