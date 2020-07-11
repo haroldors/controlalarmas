@@ -160,6 +160,7 @@ function funconstructor003() {
         $('#idtablalistado').append('<caption id="idcaptiontablalistado"></caption>');
         $('#idtablalistado').append('<thead id="idheadtablalistado"></thead>');
         $('#idtablalistado').append('<tbody id="idbodytablalistado"></tbody>');
+        $('#idtablalistado').append('<tfoot id="idfoottablalistado"></tbody>');
 }
 
 /* construye la estructura interna de la tabla de lista de sensores */
@@ -174,6 +175,14 @@ function funconstructor004() {
         $('#idfilaheadtablalistado').append('<th>Fecha</th>');      
         $('#idfilaheadtablalistado').append('<th>IP</th>');
         $('#idfilaheadtablalistado').append('<th>-</th>');
+    document.getElementById('idfoottablalistado').innerHTML = '';
+    $('#idfoottablalistado').append('<tr id="idfilafoottablalistado" class="success"></tr>');
+        $('#idfilafoottablalistado').append('<th>Item</th>');
+        $('#idfilafoottablalistado').append('<th>ID</th>');
+        $('#idfilafoottablalistado').append('<th>Sensor</th>');
+        $('#idfilafoottablalistado').append('<th>Fecha</th>');      
+        $('#idfilafoottablalistado').append('<th>IP</th>');
+        $('#idfilafoottablalistado').append('<th>-</th>');        
 
     document.getElementById('idbodytablalistado').innerHTML = '';
 
