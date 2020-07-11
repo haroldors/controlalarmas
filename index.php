@@ -9,8 +9,13 @@
     <link rel="shortcut icon" href="images/favicon.ico">
 
     <link type="text/css" href="bootstrap-450-dist/css/bootstrap.min.css" rel="stylesheet">
-    <link type="text/css" href="fontawesomepro5131web/css/fontawesome.min.css" rel="stylesheet">
+    <!-- <link type="text/css" href="fontawesomepro5131web/css/fontawesome.min.css" rel="stylesheet"> -->
+  <!-- reference your copy Font Awesome here (from our CDN or by hosting yourself) -->
+  <link href="fontawesomepro5131web/css/fontawesome.css" rel="stylesheet">
+  <link href="fontawesomepro5131web/css/brands.css" rel="stylesheet">
+  <link href="fontawesomepro5131web/css/solid.css" rel="stylesheet">
 
+  <!-- custom styling for all icons -->
     <!-- <link type="text/css" href="DataTables/DataTables11016/css/dataTables.bootstrap4.min.css" rel="stylesheet"> -->
 
     <!-- <link type="text/css" href="css/Style001.min.css" rel="stylesheet"> -->
