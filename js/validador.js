@@ -11,5 +11,18 @@ function link002() {
 	funconstructor003(); /* construye la estructura de la tabla */
 	funconstructor004(); /* construye la estructura interna de la tabla de sesnsores */
 	funmensajedeenvio();
+	funenvio10parametros(
+		3, 
+		'', 
+		'', 
+		'', 
+		'', 
+		'', 
+		'', 
+		'', 
+		'', 
+		'', 
+		''
+		);
 }
 

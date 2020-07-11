@@ -15,8 +15,8 @@ function funmensajedeenvio() {
     }
 } 
 
-/*Esta Funcion envia cuatro parametros*/
-function link079(varprocesox, varparametro1x, varparametro2x, varparametro3x, varparametro4x, varparametro5x, varparametro6x, varparametro7x, varparametro8x, varparametro9x, varparametro10x) {
+/*Esta Funcion envia 10 parametros*/
+function funenvio10parametros(varprocesox, varparametro1x, varparametro2x, varparametro3x, varparametro4x, varparametro5x, varparametro6x, varparametro7x, varparametro8x, varparametro9x, varparametro10x) {
     var url = "log.php";
 
     var parametrosdeurl = "";
