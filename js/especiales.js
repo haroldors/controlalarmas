@@ -6,11 +6,11 @@ function NoBack() {
     };
 
 function funmensajedeenvio() {
-    if (document.getElementById('IDDivProcesando001').style.display == "none") {
-        document.getElementById('IDDivProcesando001').style.display = "block";
-        document.getElementById('IDDivProcesando002').style.display = "block";
+    if (document.getElementById('iddivprocesando001').style.display == "none") {
+        document.getElementById('iddivprocesando001').style.display = "block";
+        document.getElementById('iddivprocesando002').style.display = "block";
     } else {
-        document.getElementById('IDDivProcesando001').style.display = "none";
-        document.getElementById('IDDivProcesando002').style.display = "none";
+        document.getElementById('iddivprocesando001').style.display = "none";
+        document.getElementById('iddivprocesando002').style.display = "none";
     }
 }    

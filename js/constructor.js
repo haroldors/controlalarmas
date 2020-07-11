@@ -136,10 +136,10 @@ function funconstructor002() {
                 $('#IDModalFormulariofooter').append('<button type="button" class="btn btn-info" data-dismiss="modal">Cerrar</button>');
     /*fin*/
     
-        /*se crea el efecto de tranparencia para esperar la carga*/
-        $('body').append('<div id="IDDivProcesando001" style="position: fixed;display:none;z-index: 1043"></div>');
-        $('#IDDivProcesando001').append('<div id="IDDivProcesando002" style="display:none" class="container"></div>');
-            $('#IDDivProcesando002').append('<p style="text-align:center"><img src="images/loader.gif" width="128" heigth="128"></img></p>');
+    /*se crea el efecto de tranparencia para esperar la carga*/
+    $('body').append('<div id="iddivprocesando001" style="position: fixed;display:none;z-index: 1043"></div>');
+    $('#iddivprocesando001').append('<div id="iddivprocesando002" style="display:none" class="container"></div>');
+        $('#iddivprocesando002').append('<p style="text-align:center"><img src="images/loader.gif" width="128" heigth="128"></img></p>');
     /*fin del efecto*/
 
     /*se crea el mensaje de alerta*/
