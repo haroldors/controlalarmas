@@ -23,8 +23,8 @@ function funconstructor001() {
                 $('#iddivcardfuncons001').append('<div id="iddivcardheaderfuncon001" class="card-header text-center"></div>');
                     $('#iddivcardheaderfuncon001').append('<div class="text-center"><img src="images/SmallLogo.png" width="166" height="100" class="rounded" alt="Brainiac"></img></div>');
 
-                $('#iddivcardfuncons001').append('<div id="iddivcardbodyfuncon001" class="card-body"></div>');
-                    $('#iddivcardbodyfuncon001').append('<form id="idformfuncons001"></form>');
+                $('#iddivcardfuncons001').append('<div id="iddivcardbody001funcon001" class="card-body"></div>');
+                    $('#iddivcardbody001funcon001').append('<form id="idformfuncons001"></form>');
                         $('#idformfuncons001').append('<div id="idformrow001funcon001" class="form-group row"></div>');
                             $('#idformrow001funcon001').append('<label for="idinputusuariofuncons001" class="col-sm-4 col-form-label">Usuario:</label>');
                             $('#idformrow001funcon001').append('<div id="iddivinput001funcons001" class="col-sm-8"></div>');
@@ -35,6 +35,8 @@ function funconstructor001() {
                                 $('#iddivinput002funcons001').append('<input type="text" class="form-control" id="idinputpasswordfuncons001" placeholder="Ingrese Password...">');                                
                         $('#idformfuncons001').append('<div id="idformrow003funcon001" class="form-group row"></div>');
                             $('#idformrow003funcon001').append('<div class="mx-auto"><button type="button" class="btn btn-light"><i class="fas fa-arrow-alt-circle-right"></i> Aceptar</button></div>');
+                $('#iddivcardfuncons001').append('<div id="iddivcardbody002funcon001" class="card-body"></div>');
+                    $('#iddivcardbody002funcon001').append('<div class="mx-auto">Brainiac SpA</div>');
 
     /*la siguiente cadena de instrucciones crea el mensaje de alertas*/
     $('body').append('<div class="modal" id="IDModalMensaje" tabidex="-1" role="dialog" aria-labelledy="miModalTitulo" aria-hidden="true"></div>');
