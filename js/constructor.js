@@ -94,7 +94,7 @@ function funconstructor002() {
             $('#idbuttonfuncons002').append('<span class="navbar-toggler-icon"></span>');
         $('#idnavbarfuncons002').append('<div id="iddivcollapsefuncons002" class="collapse navbar-collapse" id="navbarTogglerDemo01"></div>');
             $('#iddivcollapsefuncons002').append('<a class="navbar-brand" href="#">Brainiac</a>    ');
-            $('#iddivcollapsefuncons002').append('<ul ="idulfuncons002" class="navbar-nav mr-auto mt-2 mt-lg-0"></ul>');
+            $('#iddivcollapsefuncons002').append('<ul id="idulfuncons002" class="navbar-nav mr-auto mt-2 mt-lg-0"></ul>');
                 $('#idulfuncons002').append('<li class="nav-item"><a class="nav-link" href="#">Panel<span class="sr-only">(current)</span></a></li>');
                 $('#idulfuncons002').append('<li class="nav-item"><a class="nav-link" href="#">Monitoreo</a></li>');
                 $('#idulfuncons002').append('<li class="nav-item"><a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a></li>');
