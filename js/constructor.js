@@ -110,6 +110,7 @@ function funconstructor002() {
     $('body').append('<div id="iddivcontainerfluid001funcons002" class="container-fluid"  style="z-index: 1041"></div>');
         $('#iddivcontainerfluid001funcons002').append('<div id="iddivcontainerfluid002funcons002" class="container-fluid"></div>');    
             $('#iddivcontainerfluid002funcons002').append('<div id="iddivrow001funcons002" class="row"></div>');
+
                 $('#iddivrow001funcons002').append('<div class="col-xs-12 col-sm-3" id="idcolumnaderechafuncons002"></div>');
                     $('#idcolumnaderechafuncons002').append('<div id="iddivcardfuncons002" class="card" style="width: 18rem;"></div>');
                         $('#iddivcardfuncons002').append('<div class="card-header">PANEL</div>');
@@ -117,7 +118,11 @@ function funconstructor002() {
                             $('#idulpanelderecho').append('<li class="list-group-item">Historico Conexiones</li>');
                             $('#idulpanelderecho').append('<li class="list-group-item">Administracion Usuarios</li>');
                             $('#idulpanelderecho').append('<li class="list-group-item">Administracion Sensores</li>');
+
                 $('#iddivrow001funcons002').append('<div class="col-xs-12 col-sm-9" id="idcolumnaizquierdafuncons002"></div>');
+                    $('#idcolumnaizquierdafuncons002').append('<div id="iddivcardizquierdafuncons002" class="card" style="width: 18rem;"></div>');
+                        $('#iddivcardizquierdafuncons002').append('<div id="iddivcardheaderfuncons002" class="card-header">En Desarrollo ...</div>');
+                        $('#iddivcardizquierdafuncons002').append('<div id="iddivcardbodyfuncons002" class="card-body">En Desarrollo ...</div>');
     /*fin de la creacion del contenedor del cuerpo*/
 
     /*se crea la estructura para el Modal del Formulario*/
