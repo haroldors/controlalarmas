@@ -153,8 +153,8 @@ function funconstructor002() {
 }
 
 /* contruye la estructura de la tabla */
-function funconstructor003() {
-    $('#iddivcardbodyfuncons002').innerHTML='';
+function funconstructor003() {    
+    document.getElementById('iddivcardbodyfuncons002').innerHTML = '';
     $('#iddivcardbodyfuncons002').append('<div id="idtableresponsivefuncons003" class="table-responsive"></div>');
     $('#idtableresponsivefuncons003').append('<table id="IDTablaListado" class="table table-hover table-bordered table-condensed"></table>');
         $('#IDTablaListado').append('<caption id="IDCaptionTablaListado"></caption>');
