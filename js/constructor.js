@@ -35,7 +35,7 @@ function funconstructor001() {
                                 $('#iddivinput002funcons001').append('<input type="text" class="form-control" id="idinputpasswordfuncons001" placeholder="Ingrese Password...">');                                
                         $('#idformfuncons001').append('<div id="idformrow003funcon001" class="form-group row"></div>');
                             $('#idformrow003funcon001').append('<div class="mx-auto"><button type="button" class="btn btn-light"><i class="fas fa-arrow-alt-circle-right"></i> Aceptar</button></div>');
-                $('#iddivcardfuncons001').append('<div id="iddivcardbody002funcon001" class="card-body"></div>');
+                $('#iddivcardfuncons001').append('<div id="iddivcardbody002funcon001" class="card-body" style="padding=0.25rem;min-height:0.5px"></div>');
                     $('#iddivcardbody002funcon001').append('<div class="row"><div class="mx-auto">Brainiac SpA <i class="fas fa-copyright"></i></div></div>');
 
     /*la siguiente cadena de instrucciones crea el mensaje de alertas*/
