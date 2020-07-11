@@ -21,9 +21,9 @@
     <script type="text/javascript" src="DataTables/DataTables-1.10.21/js/jquery.dataTables.min.js"></script>
     <script type="text/javascript" src="DataTables/DataTables-1.10.21/js/dataTables.bootstrap4.min.js"></script>
 
-    <script type="text/javascript" src="js/constructor.min.js"></script>
-    <script type="text/javascript" src="js/interfaz.min.js"></script>
     <script type="text/javascript" src="js/validador.min.js"></script>
+    <script type="text/javascript" src="js/interfaz.min.js"></script>
+    <script type="text/javascript" src="js/constructor.min.js"></script>
     <script type="text/javascript" src="js/especiales.min.js"></script>
 
 </head>
