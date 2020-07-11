@@ -151,3 +151,31 @@ function funconstructor002() {
                 $('#IDModalMensajefooter').append('<button type="button" class="btn btn-info" data-dismiss="modal">Cerrar</button>');
     /*fin de la estructura de Mensaje */
 }
+
+/* contruye la estructura de la tabla */
+function funconstructor003() {
+    $('#iddivcardbodyfuncons002').innerHTML='';
+    $('#iddivcardbodyfuncons002').append('<div id="idtableresponsivefuncons003" class="table-responsive"></div>');
+    $('#idtableresponsivefuncons003').append('<table id="IDTablaListado" class="table table-hover table-bordered table-condensed"></table>');
+        $('#IDTablaListado').append('<caption id="IDCaptionTablaListado"></caption>');
+        $('#IDTablaListado').append('<thead id="IDHeadTablaListado"></thead>');
+        $('#IDTablaListado').append('<tbody id="IDBodyTablaListado"></tbody>');
+}
+
+/* construye la estructura interna de la tabla de lista de sensores */
+function funconstructor004() {
+
+    document.getElementById('IDCaptionTablaListado').innerHTML = 'Listado de Reportes de Sensores';
+    document.getElementById('IDHeadTablaListado').innerHTML = '';
+    $('#IDHeadTablaListado').append('<tr id="IDFilaHeadTablaListado" class="success"></tr>');
+        $('IDFilaHeadTablaListado').append('<th>Item</th>');
+        $('IDFilaHeadTablaListado').append('<th>-</th>');
+        $('IDFilaHeadTablaListado').append('<th>PATENTE</th>');
+        $('IDFilaHeadTablaListado').append('<th>MARCA</th>');
+        $('IDFilaHeadTablaListado').append('<th>MODELO</th>');
+        $('IDFilaHeadTablaListado').append('<th>ESTADO</th>');
+        $('IDFilaHeadTablaListado').append('<th>-</th>');
+
+    document.getElementById('IDBodyTablaListado').innerHTML = '';
+
+}
