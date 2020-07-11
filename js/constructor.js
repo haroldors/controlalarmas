@@ -22,7 +22,7 @@ function funconstructor001() {
                 $('#iddivcardfuncons001').append('<img src="images/SmallLogo.png" width="166" height="100 class="card-img-top" alt="Brainiac"></img>');
                 $('#iddivcardfuncons001').append('<div id="iddivcardheaderfuncon001" class="card-header">Formulario Acceso</div>');
 
-                $('#iddivcardfuncons001').append('<div id="iddivcardbodyfuncon001" class="card-body"></div>');
+                $('#iddivcardfuncons001').append('<div id="iddivcardbodyfuncon001" style="max-width: 36rem;" class="card-body"></div>');
                     $('#iddivcardbodyfuncon001').append('<form id="idformfuncons001"></form>');
                         $('#idformfuncons001').append('<div id="idformrow001funcon001" class="form-group row"></div>');
                             $('#idformrow001funcon001').append('<label for="idinputusuariofuncons001" class="col-sm-4 col-form-label">Usuario:</label>');
