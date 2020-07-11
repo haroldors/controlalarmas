@@ -26,8 +26,12 @@ function funconstructor001() {
                     $('#iddivcardbodyfuncon001').append('<form id="idformfuncons001"></form>');
                         $('#idformfuncons001').append('<div id="idformrow001funcon001" class="form-group row"></div>');
                             $('#idformrow001funcon001').append('<label for="idinputusuariofuncons001" class="col-sm-4 col-form-label">Usuario:</label>');
-                            $('#idformrow001funcon001').append('<div id="iddivinputfuncons001" class="col-sm-8"></div>');
-                                $('#iddivinputfuncons001').append('<input type="text" class="form-control" id="idinputusuariofuncons001" placeholder="col-form-label-lg">');
+                            $('#idformrow001funcon001').append('<div id="iddivinput001funcons001" class="col-sm-8"></div>');
+                                $('#iddivinput001funcons001').append('<input type="text" class="form-control" id="idinputusuariofuncons001" placeholder="Ingrese...">');
+                        $('#idformfuncons001').append('<div id="idformrow002funcon001" class="form-group row"></div>');
+                            $('#idformrow002funcon001').append('<label for="iddivinput002funcons001" class="col-sm-4 col-form-label">Password:</label>');
+                            $('#idformrow002funcon001').append('<div id="iddivinput002funcons001" class="col-sm-8"></div>');
+                                $('#iddivinput002funcons001').append('<input type="text" class="form-control" id="idinputpasswordfuncons001" placeholder="Ingrese...">');                                
 
     /*la siguiente cadena de instrucciones crea el mensaje de alertas*/
     $('body').append('<div class="modal" id="IDModalMensaje" tabidex="-1" role="dialog" aria-labelledy="miModalTitulo" aria-hidden="true"></div>');
