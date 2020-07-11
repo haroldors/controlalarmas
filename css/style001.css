@@ -7,6 +7,12 @@
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
 } */
+
+body {
+    background:#FFFFFF;
+    padding-top:55px;
+}
+
 .card {
     box-shadow: 0px 5px 5px 5px #7b7d7d ;
 }
