@@ -20,3 +20,30 @@ body {
 #iddivcontainerfluid001funcons002 {
     padding-top: 55px;
 }
+
+#IDDivProcesando001
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 6;
+    background-color: #BEBEBE;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    top: 0px;
+    left: 0px;
+}
+
+#IDDivProcesando002
+{
+    text-align:center;
+    position: absolute;
+    width: 80%;
+    height: 60%;
+    z-index: 7;
+    background-color: #C0C0C0;
+    opacity: 0.99;
+    top: 40%;
+    left: 10%;
+    padding: 0px;
+}
