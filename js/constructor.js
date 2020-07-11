@@ -120,7 +120,7 @@ function funconstructor002() {
                             $('#idulpanelderecho').append('<li class="list-group-item">Administracion Sensores</li>');
 
                 $('#iddivrow001funcons002').append('<div class="col-xs-12 col-sm-9" id="idcolumnaizquierdafuncons002"></div>');
-                    $('#idcolumnaizquierdafuncons002').append('<div id="iddivcardizquierdafuncons002" class="card" style="width: 18rem;"></div>');
+                    $('#idcolumnaizquierdafuncons002').append('<div id="iddivcardizquierdafuncons002" class="card"></div>');
                         $('#iddivcardizquierdafuncons002').append('<div id="iddivcardheaderfuncons002" class="card-header">En Desarrollo ...</div>');
                         $('#iddivcardizquierdafuncons002').append('<div id="iddivcardbodyfuncons002" class="card-body">En Desarrollo ...</div>');
     /*fin de la creacion del contenedor del cuerpo*/
