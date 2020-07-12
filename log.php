@@ -71,7 +71,7 @@ if (isset($_POST['varproceso'])) {
                     echo "&#59";
                     echo $vardatoscolumnas['alarmasensor'];
                     echo "&#59";
-                    echo $vardatoscolumnas['alarmasensor'];  
+                    echo $vardatoscolumnas['idsensor'];  
                     echo "&#59";
                     echo $vardatoscolumnas['alarmasensor'];                      
                     echo "&#124";
