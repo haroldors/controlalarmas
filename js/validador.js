@@ -30,7 +30,7 @@ function link002() {
 			funconstructor003();
 			funconstructor004();
 			funmensajedeenvio();
-/* 			window.setTimeout(
+			window.setTimeout(
 				funenvio10parametros(
 					2, 
 					'', 
@@ -43,8 +43,7 @@ function link002() {
 					'', 
 					'', 
 					''
-					)
-				, 2000); */			
+					), 2000);			
 		}
 }
 
