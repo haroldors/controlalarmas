@@ -100,7 +100,7 @@ function funconstructor002() {
                 /* $('#idulfuncons002').append('<li class="nav-item"><a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a></li>'); */
             
             $('#iddivcollapsefuncons002').append('<ul id="idul002funcons002" class="navbar-nav my-2 my-lg-0"></ul>');
-                $('#idul002funcons002').append('<li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-power-off"></i> Cerrar</a></li>');
+                $('#idul002funcons002').append('<li class="nav-item"><a id="idlicerrarfuncons002" class="nav-link" href="#"><i class="fas fa-power-off"></i> Cerrar</a></li>');
 
 
     /*Fin de la creacion de la Barra Superior*/
