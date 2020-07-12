@@ -46,10 +46,23 @@ function link002() {
 					''
 					), 2000);			
 		}
-
-		document.getElementById('idlimonitoreofuncons002').onclick = function() {
-			link003();
+		/* al presionar el boton panel */
+		document.getElementById('idlipanelfuncons002').onclick = function() {
+			if (document.getElementById('idcolumnaderechafuncons002').style.display == 'none') {				
+				document.getElementById('idcolumnaderechafuncons002').style.display='none';
+				document.getElementById('idcolumnaizquierdafuncons002').className='col-xs-12';
+			}
 		}
+
+		/* al presionarl el boton monitoreo */
+		document.getElementById('idlimonitoreofuncons002').onclick = function() {
+			if (document.getElementById('idcolumnaderechafuncons002').style.display == 'block') {				
+				document.getElementById('idcolumnaderechafuncons002').style.display='none';
+				document.getElementById('idcolumnaizquierdafuncons002').className='col-xs-12 col-sm-9';
+			}
+		}
+
+		
 }
 
 /*la siguiente funcion modifica la distribucion de los div dentro de la ventana*/

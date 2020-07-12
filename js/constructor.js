@@ -95,8 +95,8 @@ function funconstructor002() {
         $('#idnavbarfuncons002').append('<div id="iddivcollapsefuncons002" class="collapse navbar-collapse" id="navbarTogglerDemo01"></div>');
             $('#iddivcollapsefuncons002').append('<a class="navbar-brand" href="#">Brainiac</a>    ');
             $('#iddivcollapsefuncons002').append('<ul id="idul001funcons002" class="navbar-nav mr-auto mt-2 mt-lg-0"></ul>');
-                $('#idul001funcons002').append('<li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-cog"></i> Panel</a></li>');
-                $('#idul001funcons002').append('<li class="nav-item"><a  id="idlimonitoreofuncons002" class="nav-link" href="#"><i class="fas fa-siren-on"></i> Monitoreo</a></li>');
+                $('#idul001funcons002').append('<li class="nav-item"><a id="idlipanelfuncons002" class="nav-link" href="#"><i class="fas fa-cog"></i> Panel</a></li>');
+                $('#idul001funcons002').append('<li class="nav-item"><a id="idlimonitoreofuncons002" class="nav-link" href="#"><i class="fas fa-siren-on"></i> Monitoreo</a></li>');
                 /* $('#idulfuncons002').append('<li class="nav-item"><a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a></li>'); */
             
             $('#iddivcollapsefuncons002').append('<ul id="idul002funcons002" class="navbar-nav my-2 my-lg-0"></ul>');
