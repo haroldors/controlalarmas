@@ -187,3 +187,14 @@ function funconstructor004() {
     document.getElementById('idbodytablalistado').innerHTML = '';
 
 }
+
+/* crea la barra de botones superior de la vista de reportes */
+function funconstructor005() {
+    document.getElementById('iddivcardheaderfuncons002').innerHTML = '';
+    $('#iddivcardheaderfuncons002').append('<div class="btn-group" role="group" id="idbuttontoolbar"></div>');
+        $('#idbuttontoolbar').append('<button type="button" class="btn btn-default" title="Menu Lateral" onclick="link060()" id="idbuttonlateral" style="display:none"><i class=" fa fa-align-justify fa-1x" aria-hidden="true"></i></button>');
+        $('#idbuttontoolbar').append('<button type="button" class="btn btn-default" title="Actualizar" id="idbuttonrefeshfuncons044"><i class=" fa fa-refresh fa-1x" aria-hidden="true"></i></button>');
+        $('#idbuttontoolbar').append('<button type="button" class="btn btn-default" title="Descargar" onclick="link096()" id="idbuttondescargarfuncons044"><i class=" fa fa-file-excel-o fa-1x" aria-hidden="true"></i></button>');
+        $('#idbuttontoolbar').append('<button type="button" class="btn btn-default" title="Recepcionar" id="idbuttonrecepcionarfuncons044"><i class=" fa fa-ambulance fa-1x" aria-hidden="true"></i></button>');
+    $('#iddivcardheaderfuncons002').append('<form class="navbar-form navbar-right" style="margin-top: 0px" role="search"><div class="form-group"><select class="form-control input-sm" id="idselectbodegafuncons044"><option selected value="-">Seleccione la Bodega</option></select></div></form>');
+}
