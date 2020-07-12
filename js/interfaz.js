@@ -120,7 +120,7 @@ function handleHttpResponse() {
                         funiconoentabla('idtablalistado', 7, 'fas fa-siren fa-3x', 'color:green;font-size:14px', 'Normal', '1');
                         funasignafuncionentabla('idbodytablalistado', 8, 'link004', 'fas fa-book', 'Editar','font-size:14px');
                         $('#idtablalistado').dataTable({
-                            columnDefs: [ { orderable: false, targets: [ 5, 6 ] } ],
+                            columnDefs: [ { orderable: false, targets: [ 1, 6, 7, 8 ] } ],
                             pageLength: -1,
                             lengthMenu: [[25, 50, 100, -1], [25, 50, 100, "Todos"]],
                             "language": {
