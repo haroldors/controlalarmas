@@ -58,7 +58,7 @@ function handleHttpResponse() {
                         /* funconstructor042(); *//* crea la estructura de la tabla del body del panel */
                         /* funconstructor062(); *//*Crea Estructura de encabezado para Tabla de Codigos de Articulos*/
                         funrecorrerdataparadatatable('idtablalistado', 'idfilaheadtablalistado', 'idbodytablalistado', results[3]);
-                        document.getElementById('idcaptiontablalistado').innerHTML = 'Codigos de Articulos [' + results[2] + ']';
+/*                         document.getElementById('idcaptiontablalistado').innerHTML = 'Codigos de Articulos [' + results[2] + ']';
                         funiconoentabla('idtablalistado', 6, 'fa fa-check-square-o fa-1x', 'color:green;font-size:14px', 'Habilitado', 'Verdadero');
                         funiconoentabla('idtablalistado', 6, 'fa fa-window-close-o fa-1x', 'color:Red;font-size:14px', 'Deshabilitado', 'Falso');
                         funAsignaFuncionenTabla('idbodytablalistado', 1, 'link053', 'fa fa-pencil-square-o fa-1x', 'Editar','font-size:14px');
@@ -82,7 +82,7 @@ function handleHttpResponse() {
                                 },
                             "scrollX": true
                             }
-                        });
+                        }); */
                         /*funlanzarDatatable('IDTablaListado');*/
 
                     } else {
