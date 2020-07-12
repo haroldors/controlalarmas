@@ -99,10 +99,7 @@ function link003() {
 
 /* la siguiente funcion despliega los reportes */
 function link004(varidx) {
-	/* funmensajedeenvio(); */
-	abrirmodalformulario();
-	funconstructor006();
-	funconstructor007();
+	funmensajedeenvio();
 	document.getElementById('idmodaltitle').innerHTML ="Detalle";
 
 	window.setTimeout(
