@@ -49,7 +49,7 @@ function link002() {
 		/* al presionar el boton panel */
 		document.getElementById('idlipanelfuncons002').onclick = function() {
 			if (document.getElementById('idcolumnaderechafuncons002').style.display == 'none') {				
-				document.getElementById('idcolumnaderechafuncons002').style.display='none';
+				document.getElementById('idcolumnaderechafuncons002').style.display='block';
 				document.getElementById('idcolumnaizquierdafuncons002').className='col-xs-12';
 			}
 		}
