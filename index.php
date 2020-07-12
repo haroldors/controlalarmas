@@ -16,7 +16,7 @@
   <link href="fontawesomepro5131web/css/solid.css" rel="stylesheet">
 
   <!-- custom styling for all icons -->
-    <link type="text/css" href="DataTables/DataTables-1.10.21/css/dataTables.bootstrap4.min.css" rel="stylesheet">
+    <!-- <link type="text/css" href="DataTables/DataTables-1.10.21/css/dataTables.bootstrap4.min.css" rel="stylesheet"> -->
 
     <link type="text/css" href="css/style001.css" rel="stylesheet">
     <!-- <link type="text/css" href="css/CssAutoGenerado.css" rel="stylesheet"> -->
