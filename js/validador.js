@@ -11,7 +11,7 @@ function link002() {
 
 	funconstructor002(); /* Construye la estructura marco */
 	/* document.getElementById('idlimonitoreofuncons002').click(); */
-	window.setTimeout(function(){$('#idlimonitoreofuncons002').click()}, 500);
+	window.setTimeout(function(){$('#idlimonitoreofuncons002').click()}, 50);
 
 
 	/* al presionar el boton panel */
