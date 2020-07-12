@@ -26,7 +26,7 @@ function link002() {
 		''
 		);
 	
-		document.getElementById('idbuttonrefreshfuncons005').onclick = funtion() {
+		document.getElementById('idbuttonrefreshfuncons005').onclick = function() {
 			funconstructor003();
 			funconstructor004();
 			funmensajedeenvio();
