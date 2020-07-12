@@ -148,7 +148,7 @@ function handleHttpResponse() {
                     }
                 };
 
-
+                /*recupera los tipos de sensores para el formulario de registro de nuevo sensor*/
                 if (results[0] == "006") {
                     if (results[1] == "ConDatos") {
 
@@ -156,6 +156,7 @@ function handleHttpResponse() {
                         abrirmodalformulario();
                         funconstructor010();
                         funrecorrerdatadeselect('idselect001funcons010', results[2]);
+                        $('#idinput001funcons010').click();
 
                     } else {
                         funmensajedeenvio();
