@@ -175,7 +175,7 @@ function funconstructor003() {
 /* construye la estructura interna de la tabla de lista de sensores */
 function funconstructor004() {
 
-    document.getElementById('idcaptiontablalistado').innerHTML = 'Listado de Reportes de Sensores';
+    document.getElementById('idcaptiontablalistado').innerHTML = 'Listado de Sensores';
     document.getElementById('idheadtablalistado').innerHTML = '';
     $('#idheadtablalistado').append('<tr id="idfilaheadtablalistado" class="thead-dark"></tr>');
         $('#idfilaheadtablalistado').append('<th>Item</th>');
@@ -219,7 +219,7 @@ function funconstructor006() {
 /* construye la estructura interna de la tabla de lista detalle de reportes de sensores */
 function funconstructor007() {
 
-    document.getElementById('idcaptiontablalistadodetalle').innerHTML = 'Listado de Reportes de Sensores';
+    document.getElementById('idcaptiontablalistadodetalle').innerHTML = 'Listado de Reporte del Sensor';
     document.getElementById('idheadtablalistadodetalle').innerHTML = '';
     $('#idheadtablalistadodetalle').append('<tr id="idfilaheadtablalistadodetalle" class="thead-dark"></tr>');
         $('#idfilaheadtablalistadodetalle').append('<th>Item</th>');
