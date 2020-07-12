@@ -230,3 +230,11 @@ function funconstructor008() {
     document.getElementById('idbodytablalistado').innerHTML = '';
 
 }
+
+/* crea la barra de botones superior de la vista de Sensores */
+function funconstructor009() {
+    document.getElementById('iddivcardheaderfuncons002').innerHTML = '';
+    $('#iddivcardheaderfuncons002').append('<div id="idbtngroupfuncons009" class="btn-group" role="group" aria-label="Basic example"></div>');
+        $('#idbtngroupfuncons009').append('<button id="idbuttonrefreshfuncons009" type="button" class="btn btn-secondary"><i class="fas fa-sync-alt"></i></button>');
+        $('#idbtngroupfuncons009').append('<button type="button" class="btn btn-secondary"><i class="fas fa-plus"></i></button>');
+}

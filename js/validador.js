@@ -80,6 +80,7 @@ function link002() {
 
 		funconstructor003(); /* carga la estructura de la tabla */
 		funconstructor008(); /*carga la estructura de los encabezados de la tabla*/
+		funconstructor009(); /*carga la lista de botones superiores*/
 		funmensajedeenvio();
 		window.setTimeout(
 			funenvio10parametros(
