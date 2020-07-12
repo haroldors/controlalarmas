@@ -111,9 +111,11 @@ function handleHttpResponse() {
                         /* funconstructor042(); *//* crea la estructura de la tabla del body del panel */
                         /* funconstructor062(); *//*Crea Estructura de encabezado para Tabla de Codigos de Articulos*/
                         funrecorrerdataparadatatable('idtablalistado', 'idfilaheadtablalistado', 'idbodytablalistado', results[2]);
-                        funiconoentabla('idtablalistado', 5, 'fas fa-siren-on', 'color:red;font-size:14px', 'Alarma', '0');
-                        funiconoentabla('idtablalistado', 5, 'fas fa-siren fa-3x', 'color:green;font-size:14px', 'Normal', '1');
-                        funasignafuncionentabla('idbodytablalistado', 6, 'link004', 'fa fa-search-plus', 'Editar','font-size:14px');
+
+                        funasignafuncionentabla('idbodytablalistado', 1, 'link004', 'fas fa-edit', 'Editar','font-size:14px');
+                        funiconoentabla('idtablalistado', 6, 'fas fa-siren-on', 'color:red;font-size:14px', 'Alarma', '0');
+                        funiconoentabla('idtablalistado', 6, 'fas fa-siren fa-3x', 'color:green;font-size:14px', 'Normal', '1');
+                        funasignafuncionentabla('idbodytablalistado', 7, 'link004', 'fas fa-book', 'Editar','font-size:14px');
                         $('#idtablalistado').dataTable({
                             columnDefs: [ { orderable: false, targets: [ 5, 6 ] } ],
                             pageLength: -1,
