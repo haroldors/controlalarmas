@@ -57,7 +57,7 @@ function handleHttpResponse() {
                         funmensajedeenvio();
                         /* funconstructor042(); *//* crea la estructura de la tabla del body del panel */
                         /* funconstructor062(); *//*Crea Estructura de encabezado para Tabla de Codigos de Articulos*/
-                        funrecorrerdataparadatatable('idtablalistado', 'idfilaheadtablalistado', 'idbodytablalistado', results[3]);
+                        funrecorrerdataparadatatable('idtablalistado', 'idfilaheadtablalistado', 'idbodytablalistado', results[2]);
 /*                         document.getElementById('idcaptiontablalistado').innerHTML = 'Codigos de Articulos [' + results[2] + ']';
                         funiconoentabla('idtablalistado', 6, 'fa fa-check-square-o fa-1x', 'color:green;font-size:14px', 'Habilitado', 'Verdadero');
                         funiconoentabla('idtablalistado', 6, 'fa fa-window-close-o fa-1x', 'color:Red;font-size:14px', 'Deshabilitado', 'Falso');
