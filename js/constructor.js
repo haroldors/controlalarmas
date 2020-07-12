@@ -116,8 +116,8 @@ function funconstructor002() {
                         $('#iddivcardfuncons002').append('<div class="card-header">PANEL</div>');
                         $('#iddivcardfuncons002').append('<ul id="idulpanelderecho" class="list-group list-group-flush"></ul>');
                             $('#idulpanelderecho').append('<li class="list-group-item"><i class="fas fa-book"></i> Historico Conexiones</li>');
-                            $('#idulpanelderecho').append('<li class="list-group-item"><i class="fas fa-sync-alt"></i> Administracion Usuarios</li>');
-                            $('#idulpanelderecho').append('<li class="list-group-item"><i class="fas fa-sync-alt"></i> Administracion Sensores</li>');
+                            $('#idulpanelderecho').append('<li class="list-group-item"><i class="fas fa-users-cog"></i> Administracion Usuarios</li>');
+                            $('#idulpanelderecho').append('<li class="list-group-item"><i class="fas fa-wrench"></i> Administracion Sensores</li>');
 
                 $('#iddivrow001funcons002').append('<div class="col-xs-12 col-sm-9" id="idcolumnaizquierdafuncons002"></div>');
                     $('#idcolumnaizquierdafuncons002').append('<div id="iddivcardizquierdafuncons002" class="card"></div>');
