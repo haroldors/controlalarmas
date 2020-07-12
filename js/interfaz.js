@@ -95,6 +95,9 @@ function handleHttpResponse() {
                 if (results[0] == "004") {
                     if (results[1] == "ConDatos") {
                         funmensajedeenvio();
+                        abrirmodalformulario();
+                        funconstructor006();
+                        funconstructor007();                        
                         /* funconstructor042(); *//* crea la estructura de la tabla del body del panel */
                         /* funconstructor062(); *//*Crea Estructura de encabezado para Tabla de Codigos de Articulos*/
                         funrecorrerdataparadatatable('idtablalistadodetalle', 'idfilaheadtablalistadodetalle', 'idbodytablalistadodetalle', results[2]);
