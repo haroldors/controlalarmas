@@ -243,7 +243,13 @@ function funconstructor010() {
     document.getElementById('idmodaltitle').innerHTML='Formulario de Ingreso de Sensores';
     document.getElementById('idmodalbody').innerHTML='';
     $('#idmodalbody').append('<form id="idformfuncons010"></form>');
+
         $('#idformfuncons010').append('<div id="idformgroup001funcons010" class="form-group row"></div>');
             $('#idformgroup001funcons010').append('<label for="idinput001funcons010" class="col-sm-2 col-form-label">Nombre:</label>');
             $('#idformgroup001funcons010').append('<div class="col-sm-10"><input type="text" class="form-control" id="idinput001funcons010" placeholder="Nombre Sensor"></div>');
+
+        $('#idformfuncons010').append('<div id="idformgroup002funcons010" class="form-group row"></div>');
+            $('#idformgroup002funcons010').append('<label for="idselect001funcons010" class="col-sm-2 col-form-label">Tipo:</label>');
+            $('#idformgroup002funcons010').append('<div class="col-sm-10"><select id="idselect001funcons010" class="form-control"></select></div>');
+                $('#idselect001funcons010').append('<option selected value="-">Por Favor Seleccione</option>');
 }
