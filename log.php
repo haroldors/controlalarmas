@@ -24,13 +24,13 @@ function getRealIP() {
     }
 }
 
-echo "El ID Sensor: " . $_GET['idsensor'] . "<br>";
+/* echo "El ID Sensor: " . $_GET['idsensor'] . "<br>";
 
 echo "El Reporte Sensor: " .  $_GET['reportesensor'] . "<br>";
 
 echo "La IP: " .  getRealIP() . "<br>";
 
-echo "La Fecha: " .  $fechalargaregistro . "<br>";
+echo "La Fecha: " .  $fechalargaregistro . "<br>"; */
 
 
 $varselect = $conexion -> prepare('INSERT INTO reportessensores (idsensor,fechalargaregistro,reportesensor,ipsensor) VALUES (:id,:fechalargaregistro0,:reportesensor,:ipsensor)');
@@ -42,5 +42,50 @@ $varselect -> execute(
 			':ipsensor' => getRealIP()
 		)
 	);
+
+/* el siguiente codigo verifica que por post se este enviando el parametro varproceso */
+if (isset($_POST['varproceso'])) {
+    $varproceso = ($_POST['varproceso']);
+    
+    switch($varproceso):
+    /* el siguiente proceso cierra la sesion */    
+
+    /*este proceso recupera la data de la tabla de monitoreo*/
+    case "002":
+        
+        /* if ($_SESSION['IDPER'] == '1' or $_SESSION['IDPER'] == '2' or $_SESSION['IDPER'] == '3') { */
+            $varcadenaretorno = "";
+            $varrs = $conexion -> prepare('SELECT a.*,b.nombretiposensor FROM sensores a LEFT JOIN tiposensores b ON a.idtiposensor = b.idtiposensor ORDER BY nombresensor');
+            $varrs->execute();
+            $totalregistros = $varrs->rowcount();
+            if($totalregistros > 0)
+                {
+                    printf("002;ConDatos;");
+                    $varresultados = $varselect -> fetchall();
+                    foreach($varresultados as $vardatostipoticket) {
+
+                        echo $vardatostipoticket['idsensor'];
+                        echo "&#59";
+                        echo $vardatostipoticket['nombresensor'];
+                        echo "&#59";
+                        echo $vardatostipoticket['nombretiposensor'];
+                        echo "&#59";
+                        echo $vardatostipoticket['alarmasensor'];
+                        echo "&#59";
+                        echo $vardatostipoticket['alarmasensor'];  
+                        echo "&#124";
+                    }
+                }
+            else
+                {
+                    echo"002;SinDatos";
+                }
+            $varrs = null;
+/*         } else {
+            echo "000;CerradaOK";
+        } */
+    break;
+
+    }
 
 ?>

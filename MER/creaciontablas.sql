@@ -52,6 +52,7 @@ CREATE TABLE `sensores` (
     `idtiposensor` BIGINT NOT NULL,
     `ipautorizadasensor` VARCHAR(50) NOT NULL,
     `estadosensor` TINYINT(1) NOT NULL,
+    `alarmasensor` TINYINT(1) NOT NULL,
     PRIMARY KEY (`idsensor`)
 );
 
@@ -85,6 +86,7 @@ CREATE TABLE `logsensores` (
     `idtiposensor` BIGINT NOT NULL,
     `ipautorizadasensor` VARCHAR(50) NOT NULL,
     `estadosensor` TINYINT(1) NOT NULL,
+    `alarmasensor` TINYINT(1) NOT NULL,
     PRIMARY KEY (`idlogsensor`),
     UNIQUE (`idlogsensor`)
 );

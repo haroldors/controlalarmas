@@ -51,6 +51,46 @@ function handleHttpResponse() {
                         }, 2550);
                     }
                 }
+
+                if (results[0] == "002") {
+                    if (results[1] == "ConDatos") {
+                        funmensajedeenvio();
+                        /* funconstructor042(); *//* crea la estructura de la tabla del body del panel */
+                        /* funconstructor062(); *//*Crea Estructura de encabezado para Tabla de Codigos de Articulos*/
+                        funRecorrerDataParaDataTable('idtablalistado', 'idfilaheadtablalistado', 'idbodytablalistado', results[3]);
+                        document.getElementById('idcaptiontablalistado').innerHTML = 'Codigos de Articulos [' + results[2] + ']';
+                        funiconoentabla('idtablalistado', 6, 'fa fa-check-square-o fa-1x', 'color:green;font-size:14px', 'Habilitado', 'Verdadero');
+                        funiconoentabla('idtablalistado', 6, 'fa fa-window-close-o fa-1x', 'color:Red;font-size:14px', 'Deshabilitado', 'Falso');
+                        funAsignaFuncionenTabla('idbodytablalistado', 1, 'link053', 'fa fa-pencil-square-o fa-1x', 'Editar','font-size:14px');
+                        $('#idtablalistado').dataTable({
+                            columnDefs: [ { orderable: false, targets: [ 1, 6 ] } ],
+                            pageLength: 25,
+                            lengthMenu: [[25, 50, 100, -1], [25, 50, 100, "Todos"]],
+                            "language": {
+                                "lengthMenu": "Mostrar _MENU_ registros por pagina",
+                                "zeroRecords": "No se encontraron resultados en su Busqueda",
+                                "searchPlaceholder": "Dato a Buscar",
+                                "info": "Mostrar desde el registro _START_ al registro _END_ ",
+                                "infoEmpty": "No Existen registros",
+                                "infoFiltered": "(filtrado de un total de _MAX_ registros)",
+                                "search": "Buscar:",
+                                "paginate": {
+                                    "first": "Primero",
+                                    "last": "Ultimo",
+                                    "next": "Siguiente",
+                                    "previous": "Anterior"
+                                },
+                            "scrollX": true
+                            }
+                        });
+                        /*funlanzarDatatable('IDTablaListado');*/
+
+                    } else {
+                        funmensajedeenvio();
+                        document.getElementById('idcaptiontablalistado').innerHTML = 'Codigos de Articulos [0]';
+                    }
+                };
+
             }
         }
     }
