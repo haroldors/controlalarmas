@@ -103,4 +103,5 @@ function link004(varidx) {
 	abrirmodalformulario();
 	funconstructor006();
 	funconstructor007();
+	document.getElementById('idmodaltitle').innerHTML ="Detalle";
 }
