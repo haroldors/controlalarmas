@@ -252,4 +252,8 @@ function funconstructor010() {
             $('#idformgroup002funcons010').append('<label for="idselect001funcons010" class="col-sm-2 col-form-label">Tipo:</label>');
             $('#idformgroup002funcons010').append('<div class="col-sm-10"><select id="idselect001funcons010" class="form-control"></select></div>');
                 $('#idselect001funcons010').append('<option selected value="-">Por Favor Seleccione</option>');
+
+        $('#idformfuncons010').append('<div id="idformgroup003funcons010" class="form-group row"></div>');
+            $('#idformgroup003funcons010').append('<label for="idinput002funcons010" class="col-sm-2 col-form-label">IP:</label>');
+            $('#idformgroup003funcons010').append('<div class="col-sm-10"><input type="text" class="form-control" id="idinput002funcons010" placeholder="Direccion IP"></div>');
 }
