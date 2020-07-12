@@ -238,3 +238,7 @@ function funconstructor009() {
         $('#idbtngroupfuncons009').append('<button id="idbuttonrefreshfuncons009" type="button" class="btn btn-secondary"><i class="fas fa-sync-alt"></i></button>');
         $('#idbtngroupfuncons009').append('<button id="idbuttonagregarfuncons099" type="button" class="btn btn-secondary"><i class="fas fa-plus"></i></button>');
 }
+
+function funconstructor010() {
+    document.getElementById('idmodaltitle').innerHTML='Formulario de Ingreso de Sensores';
+}
