@@ -88,7 +88,7 @@ if (isset($_POST['varproceso'])) {
     case "004":
         
         $varcadenaretorno = "";
-        $varrs = $conexion -> prepare('select a.*,b.nombresensor,c.nombretiposensor from reportessensores a LEFT JOIN sensores b ON a.idsensor =b.idsensor LEFT JOIN tiposensores c ON b.idtiposensor =c.idtiposensor WHERE a.idsensor =?');
+        $varrs = $conexion -> prepare('SELECT a.*,b.nombresensor,c.nombretiposensor FROM reportessensores a LEFT JOIN sensores b ON a.idsensor =b.idsensor LEFT JOIN tiposensores c ON b.idtiposensor =c.idtiposensor WHERE a.idsensor =? ORDER BY a.idreportesensor DESC');
         $varrs->execute( array(
             /* ':nombreactividad' => $nombreactividad */
             $_POST['varparametro1']
