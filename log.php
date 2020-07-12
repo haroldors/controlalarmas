@@ -33,7 +33,7 @@ echo "La IP: " .  getRealIP() . "<br>";
 echo "La Fecha: " .  $fechalargaregistro . "<br>"; */
 
 
-$varselect = $conexion -> prepare('INSERT INTO reportessensores (idsensor,fechalargaregistro,reportesensor,ipsensor) VALUES (:id,:fechalargaregistro0,:reportesensor,:ipsensor)');
+/* $varselect = $conexion -> prepare('INSERT INTO reportessensores (idsensor,fechalargaregistro,reportesensor,ipsensor) VALUES (:id,:fechalargaregistro0,:reportesensor,:ipsensor)');
 $varselect -> execute(
 		array(
 			':id' => $_GET['idsensor'],
@@ -41,7 +41,7 @@ $varselect -> execute(
 			':reportesensor' => $_GET['reportesensor'],
 			':ipsensor' => getRealIP()
 		)
-	);
+	); */
 
 /* el siguiente codigo verifica que por post se este enviando el parametro varproceso */
 if (isset($_POST['varproceso'])) {
@@ -53,39 +53,36 @@ if (isset($_POST['varproceso'])) {
     /*este proceso recupera la data de la tabla de monitoreo*/
     case "002":
         
-        /* if ($_SESSION['IDPER'] == '1' or $_SESSION['IDPER'] == '2' or $_SESSION['IDPER'] == '3') { */
-            $varcadenaretorno = "";
-            $varrs = $conexion -> prepare('SELECT a.*,b.nombretiposensor FROM sensores a LEFT JOIN tiposensores b ON a.idtiposensor = b.idtiposensor ORDER BY nombresensor');
-            $varrs->execute();
-            $totalregistros = $varrs->rowcount();
-            if($totalregistros > 0)
-                {
-                    printf("002;ConDatos;");
-                    $varresultados = $varselect -> fetchall();
-                    foreach($varresultados as $vardatostipoticket) {
+        $varcadenaretorno = "";
+        $varrs = $conexion -> prepare('SELECT a.*,b.nombretiposensor FROM sensores a LEFT JOIN tiposensores b ON a.idtiposensor = b.idtiposensor ORDER BY nombresensor');
+        $varrs->execute();
+        $totalregistros = $varrs->rowcount();
+        if($totalregistros > 0)
+            {
+                printf("002;ConDatos;");
+                $varresultados = $varrs -> fetchall();
+                foreach($varresultados as $vardatoscolumnas) {
 
-                        echo $vardatostipoticket['idsensor'];
-                        echo "&#59";
-                        echo $vardatostipoticket['nombresensor'];
-                        echo "&#59";
-                        echo $vardatostipoticket['nombretiposensor'];
-                        echo "&#59";
-                        echo $vardatostipoticket['alarmasensor'];
-                        echo "&#59";
-                        echo $vardatostipoticket['alarmasensor'];  
-                        echo "&#124";
-                    }
+                    echo $vardatoscolumnas['idsensor'];
+                    echo "&#59";
+                    echo $vardatoscolumnas['nombresensor'];
+                    echo "&#59";
+                    echo $vardatoscolumnas['nombretiposensor'];
+                    echo "&#59";
+                    echo $vardatoscolumnas['alarmasensor'];
+                    echo "&#59";
+                    echo $vardatoscolumnas['alarmasensor'];  
+                    echo "&#124";
                 }
-            else
-                {
-                    echo"002;SinDatos";
-                }
-            $varrs = null;
-/*         } else {
-            echo "000;CerradaOK";
-        } */
+            }
+        else
+            {
+                echo"002;SinDatos";
+            }
+        $varrs = null;
+
     break;
 
-    }
+}
 
 ?>
