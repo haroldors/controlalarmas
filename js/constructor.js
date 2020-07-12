@@ -5,38 +5,25 @@ function funconstructor001() {
 
     /*la siguiente cadena de instrucciones crea el la estructura de login*/
     document.body.innerHTML="";
-/*     $('body').append('<div id="iddivcontainerfuncon001" class="container col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6 col-lg-offset-4 col-lg-4" style="padding-top:100px"></div>');
-        $('#iddivcontainerfuncon001').append('<br><div id="iddivpaneldefaultfuncon001" class="panel panel-default"></div>');
-            $('#iddivpaneldefaultfuncon001').append('<div id="iddivpanelheadingfuncon001" class="panel-heading"></div>');
-                $('#iddivpanelheadingfuncon001').append('<h3>Control de Acceso</h3>');
-            $('#iddivpaneldefaultfuncon001').append('<div id="iddivpanelbodyfuncon001" class="panel-body"></div>');
-                $('#iddivpanelbodyfuncon001').append('<div id="iddivformgroup001funcon001" class="form-group"></div>');
-                    $('#iddivformgroup001funcon001').append('<div id="idinputgroup001funcon001" class="input-group"></div>');
-                        $('#idinputgroup001funcon001').append('<span class="input-group-addon"><i class="glyphicon glyphicon-user" style="width:auto"></i></span><input type="text" id="IDInputUsuario" runat="server" class="form-control input-lg" name="user" placeholder="Usuario" required></input>');
-                $('#iddivpanelbodyfuncon001').append('<div id="iddivformgroup002funcon001" class="form-group"></div>');
-                    $('#iddivformgroup002funcon001').append('<div id="idinputgroup002funcon001" class="input-group"></div>');
-                        $('#idinputgroup002funcon001').append('<span class="input-group-addon"><i class="glyphicon glyphicon-lock" style="width:auto"></i></span><input type="password" id="IDInputPassword" runat="server" class="form-control input-lg" name="user" placeholder="Password" onkeydown="return ValidarEnter(event)" required></input>');
-                $('#iddivpanelbodyfuncon001').append('<button id="BotonValidar" runat="server" class="btn btn-info btn-lg" style="width: 100%" onclick="fun_login()">Validar</button>'); */
-        $('body').append('<div id="iddivcontainerfuncon001" class="container col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6 col-lg-offset-4 col-lg-4" style="padding-top:100px"></div>');
-            $('#iddivcontainerfuncon001').append('<div id="iddivcardfuncons001" class="card text-white bg-dark mb-3" style="max-width: 36rem;"></div>');
-                /* $('#iddivcardfuncons001').append(''); */
-                $('#iddivcardfuncons001').append('<div id="iddivcardheaderfuncon001" class="card-header text-center"></div>');
-                    $('#iddivcardheaderfuncon001').append('<div class="text-center"><img src="images/SmallLogo.png" width="166" height="100" class="rounded" alt="Brainiac"></img></div>');
+    $('body').append('<div id="iddivcontainerfuncon001" class="container col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6 col-lg-offset-4 col-lg-4" style="padding-top:100px"></div>');
+        $('#iddivcontainerfuncon001').append('<div id="iddivcardfuncons001" class="card text-white bg-dark mb-3" style="max-width: 36rem;"></div>');            
+            $('#iddivcardfuncons001').append('<div id="iddivcardheaderfuncon001" class="card-header text-center"></div>');
+                $('#iddivcardheaderfuncon001').append('<div class="text-center"><img src="images/SmallLogo.png" width="166" height="100" class="rounded" alt="Brainiac"></img></div>');
 
-                $('#iddivcardfuncons001').append('<div id="iddivcardbody001funcon001" class="card-body"></div>');
-                    $('#iddivcardbody001funcon001').append('<form id="idformfuncons001"></form>');
-                        $('#idformfuncons001').append('<div id="idformrow001funcon001" class="form-group row"></div>');
-                            $('#idformrow001funcon001').append('<label for="idinputusuariofuncons001" class="col-sm-4 col-form-label">Usuario:</label>');
-                            $('#idformrow001funcon001').append('<div id="iddivinput001funcons001" class="col-sm-8"></div>');
-                                $('#iddivinput001funcons001').append('<input type="text" class="form-control" id="idinputusuariofuncons001" placeholder="Ingrese Usuario...">');
-                        $('#idformfuncons001').append('<div id="idformrow002funcon001" class="form-group row"></div>');
-                            $('#idformrow002funcon001').append('<label for="iddivinput002funcons001" class="col-sm-4 col-form-label">Password:</label>');
-                            $('#idformrow002funcon001').append('<div id="iddivinput002funcons001" class="col-sm-8"></div>');
-                                $('#iddivinput002funcons001').append('<input type="text" class="form-control" id="idinputpasswordfuncons001" placeholder="Ingrese Password...">');                                
-                        $('#idformfuncons001').append('<div id="idformrow003funcon001" class="form-group row"></div>');
-                            $('#idformrow003funcon001').append('<div class="mx-auto"><button id="idbuttonaceptarfuncons001" type="button" class="btn btn-light"><i class="fas fa-arrow-alt-circle-right"></i> Aceptar</button></div>');
-                $('#iddivcardfuncons001').append('<div id="iddivcardbody002funcon001" class="card-body" style="padding:0.25rem;min-height:0.5px"></div>');
-                    $('#iddivcardbody002funcon001').append('<div class="row"><div class="mx-auto">Brainiac SpA <i class="fas fa-copyright"></i></div></div>');
+            $('#iddivcardfuncons001').append('<div id="iddivcardbody001funcon001" class="card-body"></div>');
+                $('#iddivcardbody001funcon001').append('<form id="idformfuncons001"></form>');
+                    $('#idformfuncons001').append('<div id="idformrow001funcon001" class="form-group row"></div>');
+                        $('#idformrow001funcon001').append('<label for="idinputusuariofuncons001" class="col-sm-4 col-form-label">Usuario:</label>');
+                        $('#idformrow001funcon001').append('<div id="iddivinput001funcons001" class="col-sm-8"></div>');
+                            $('#iddivinput001funcons001').append('<input type="text" class="form-control" id="idinputusuariofuncons001" placeholder="Ingrese Usuario...">');
+                    $('#idformfuncons001').append('<div id="idformrow002funcon001" class="form-group row"></div>');
+                        $('#idformrow002funcon001').append('<label for="iddivinput002funcons001" class="col-sm-4 col-form-label">Password:</label>');
+                        $('#idformrow002funcon001').append('<div id="iddivinput002funcons001" class="col-sm-8"></div>');
+                            $('#iddivinput002funcons001').append('<input type="text" class="form-control" id="idinputpasswordfuncons001" placeholder="Ingrese Password...">');                                
+                    $('#idformfuncons001').append('<div id="idformrow003funcon001" class="form-group row"></div>');
+                        $('#idformrow003funcon001').append('<div class="mx-auto"><button id="idbuttonaceptarfuncons001" type="button" class="btn btn-light"><i class="fas fa-arrow-alt-circle-right"></i> Aceptar</button></div>');
+            $('#iddivcardfuncons001').append('<div id="iddivcardbody002funcon001" class="card-body" style="padding:0.25rem;min-height:0.5px"></div>');
+                $('#iddivcardbody002funcon001').append('<div class="row"><div class="mx-auto">Brainiac SpA <i class="fas fa-copyright"></i></div></div>');
 
     /*la siguiente cadena de instrucciones crea el mensaje de alertas*/
     $('body').append('<div class="modal" id="IDModalMensaje" tabidex="-1" role="dialog" aria-labelledy="miModalTitulo" aria-hidden="true"></div>');
