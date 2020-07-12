@@ -71,3 +71,7 @@ function funcargardataendatatable(vartablax, varencabezadotablax, varcuerpotabla
         celda.appendChild(textocelda);
     }
 }
+
+function abrirmodalformulario() {
+    $("#IDModalFormulario").modal('show');
+}
