@@ -54,7 +54,7 @@ function link002() {
 
 /*la siguiente funcion modifica la distribucion de los div dentro de la ventana*/
 function link003() {
-    if (document.getElementById('idcolumnaderechafuncons002').style.display = 'block') {
+    if (document.getElementById('idcolumnaderechafuncons002').style.display == 'block') {
 		/* document.getElementById('idcolumnaderechafuncons002').className = 'col-xs-12'; */
 		document.getElementById('idcolumnaderechafuncons002').style.display='none';
 		document.getElementById('idcolumnaizquierdafuncons002').className='col-xs-12';
