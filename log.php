@@ -100,6 +100,8 @@ if (isset($_POST['varproceso'])) {
                 $varresultados = $varrs -> fetchall();
                 foreach($varresultados as $vardatoscolumnas) {
 
+                    echo $vardatoscolumnas['idreportesensor'];
+                    echo "&#59";
                     echo $vardatoscolumnas['idsensor'];
                     echo "&#59";
                     echo $vardatoscolumnas['nombresensor'];
@@ -108,9 +110,9 @@ if (isset($_POST['varproceso'])) {
                     echo "&#59";
                     echo $vardatoscolumnas['fechalargaregistro'];
                     echo "&#59";
-                    echo $vardatoscolumnas['reportesensor'];  
+                    echo $vardatoscolumnas['ipsensor'];  
                     echo "&#59";
-                    echo $vardatoscolumnas['ipsensor'];                      
+                    echo $vardatoscolumnas['reportesensor'];                      
                     echo "&#124";
                 }
             }
