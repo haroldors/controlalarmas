@@ -155,7 +155,7 @@ function funconstructor002() {
 /* contruye la estructura de la tabla */
 function funconstructor003() {    
     document.getElementById('iddivcardbodyfuncons002').innerHTML = '';
-    $('#iddivcardbodyfuncons002').append('<div id="idtableresponsivefuncons003" class="table-responsive"></div>');
+    $('#iddivcardbodyfuncons002').append('<div id="idtableresponsivefuncons003" class="table-responsive-sm"></div>');
     $('#idtableresponsivefuncons003').append('<table id="idtablalistado" class="table table-hover table-bordered table-condensed table-sm"></table>');
         $('#idtablalistado').append('<caption id="idcaptiontablalistado"></caption>');
         $('#idtablalistado').append('<thead id="idheadtablalistado"></thead>');
