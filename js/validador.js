@@ -77,6 +77,9 @@ function link002() {
 
 	/* al presionar el boton administracion de sensores */
 	document.getElementById('idadminsensoresfuncons002').onclick = function() {
+		document.getElementById('idcolumnaderechafuncons002').style.display='none';
+		document.getElementById('idcolumnaizquierdafuncons002').className='col-xs-12 col-sm-9';
+		funmensajedeenvio();
 		funconstructor003(); /* carga la estructura de la tabla */
 	}
 
