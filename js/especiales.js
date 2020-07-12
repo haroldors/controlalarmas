@@ -72,6 +72,26 @@ function funcargardataendatatable(vartablax, varencabezadotablax, varcuerpotabla
     }
 }
 
+function funasignafuncionentabla(tablax, varposicionx, varfuncionx, varclasex, varaccionx, varstylex) {
+    var tabla = document.getElementById(tablax);
+    TotalFilas = tabla.rows.length; //asigna a la variable totalfilas la cantidad de filas de la tabladatos
+    var cnt=0;
+    for (cnt = 0; cnt < TotalFilas; cnt++) {
+        var valorencelda = tabla.rows[cnt].cells[varposicionx].innerHTML;
+
+        var i001 = document.createElement("i");
+        i001.setAttribute('class', varclasex);
+        i001.setAttribute('Title', varaccionx + ': ' + valorencelda);
+        i001.setAttribute('onclick', varfuncionx + "('" + valorencelda + "')");
+        i001.setAttribute('style', varstylex);
+
+        tabla.rows[cnt].cells[varposicionx].innerHTML = "";
+        tabla.rows[cnt].cells[varposicionx].style.textAlign = "center";
+        tabla.rows[cnt].cells[varposicionx].appendChild(i001);
+
+    }
+}
+
 function abrirmodalformulario() {
     $("#IDModalFormulario").modal('show');
 }
