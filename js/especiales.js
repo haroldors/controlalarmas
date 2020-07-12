@@ -95,3 +95,23 @@ function funasignafuncionentabla(tablax, varposicionx, varfuncionx, varclasex, v
 function abrirmodalformulario() {
     $("#idmodalformulario").modal('show');
 }
+
+function funiconoentabla(tablax, varposicionx, varclassx, varstylex, vartitlex, varvalorx) {
+    var tabla = document.getElementById(tablax);
+    TotalFilas = tabla.rows.length; //asigna a la variable totalfilas la cantidad de filas de la tabladatos
+    var cnt=0;
+    for (cnt = 1; cnt < TotalFilas; cnt++) {
+        if (tabla.rows[cnt].cells[varposicionx].innerHTML == varvalorx) {
+
+            var i001 = document.createElement("i");
+            i001.setAttribute('class', varclassx);
+            i001.setAttribute('style', varstylex);
+            i001.setAttribute('Title', vartitlex);
+
+            tabla.rows[cnt].cells[varposicionx].innerHTML = "";
+            tabla.rows[cnt].cells[varposicionx].style.textAlign = "center";
+
+            tabla.rows[cnt].cells[varposicionx].appendChild(i001);
+        }
+    }
+}
