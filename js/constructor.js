@@ -67,28 +67,7 @@ function funconstructor001() {
 function funconstructor002() {
 
     /*se crea la barra menu superior del menu global*/
-
     document.body.innerHTML = "";
-/*     document.body.style.background = "#000000 url('images/Fondo001.jpg')";
-    document.body.paddingTop = "80px";
-        $('body').append('<nav id="idnavbarfun002" class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation"></nav>');
-            $('#idnavbarfun002').append('<div class="navbar-header" id="iddivnavbarheaderfun002"></div>');
-                $('#iddivnavbarheaderfun002').append('<button id="buttonnavbarheaderfun002" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"></button>');
-                    $('#buttonnavbarheaderfun002').append('<span class="sr-only">Desplegar Navegacion</span>');
-                    $('#buttonnavbarheaderfun002').append('<span class="icon-bar"></span>');
-                    $('#buttonnavbarheaderfun002').append('<span class="icon-bar"></span>');
-                    $('#buttonnavbarheaderfun002').append('<span class="icon-bar"></span>');
-                $('#iddivnavbarheaderfun002').append('<a class="navbar-brand" href="#">Brainiac</a>');
-            $('#idnavbarfun002').append('<div class="collapse navbar-collapse navbar-ex1-collapse" id="IDBarraMenuSuperior"></div>');
-                $('#IDBarraMenuSuperior').append('<ul class="nav navbar-nav" id="IDMenuSuperior"></ul>');
-                    $('#IDMenuSuperior').append('<li id="IDMenuSuperior001"><a href="#" onclick="link001()"><i class="fa fa-cog fa-1x" aria-hidden="true"></i> Panel</a></li>');
-                    $('#IDMenuSuperior').append('<li id="IDMenuSuperior002"><a href="#" onclick="link002()"><i class="fa fa-tty fa-1x" aria-hidden="true"></i> Despacho</a></li>');
-                    $('#IDMenuSuperior').append('<li id="IDMenuSuperior003"><a href="#" onclick="link049()"><i class="fa fa-truck fa-1x" aria-hidden="true"></i> Logistica</a></li>');
-                    $('#IDMenuSuperior').append('<li id="IDMenuSuperior004"><a href="#" onclick="link068()"><i class="fa fa-file-text-o fa-1x" aria-hidden="true"></i> Validacion</a></li>');
-                    $('#IDMenuSuperior').append('<li id="IDMenuSuperior005"><a href="#" onclick="link075()"><i class="fa fa-line-chart fa-1x" aria-hidden="true"></i> Reportes</a></li>');
-                    $('#IDMenuSuperior').append('<li id="IDMenuSuperior006"><a href="#" onclick="funsalir()"><span class="glyphicon glyphicon-off"> Salir</span></a></li>');
- */
-
     $('body').append('<nav id="idnavbarfuncons002" class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark"></nav>');
         $('#idnavbarfuncons002').append('<button id="idbuttonfuncons002" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation"></button>');
             $('#idbuttonfuncons002').append('<span class="navbar-toggler-icon"></span>');
@@ -96,15 +75,10 @@ function funconstructor002() {
             $('#iddivcollapsefuncons002').append('<a class="navbar-brand" href="#">Brainiac</a>    ');
             $('#iddivcollapsefuncons002').append('<ul id="idul001funcons002" class="navbar-nav mr-auto mt-2 mt-lg-0"></ul>');
                 $('#idul001funcons002').append('<li class="nav-item"><a id="idlipanelfuncons002" class="nav-link" href="#"><i class="fas fa-cog"></i> Panel</a></li>');
-                $('#idul001funcons002').append('<li class="nav-item"><a id="idlimonitoreofuncons002" class="nav-link" href="#"><i class="fas fa-siren-on"></i> Monitoreo</a></li>');
-                /* $('#idulfuncons002').append('<li class="nav-item"><a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a></li>'); */
-            
+                $('#idul001funcons002').append('<li class="nav-item"><a id="idlimonitoreofuncons002" class="nav-link" href="#"><i class="fas fa-siren-on"></i> Monitoreo</a></li>');            
             $('#iddivcollapsefuncons002').append('<ul id="idul002funcons002" class="navbar-nav my-2 my-lg-0"></ul>');
                 $('#idul002funcons002').append('<li class="nav-item"><a id="idlicerrarfuncons002" class="nav-link" href="#"><i class="fas fa-power-off"></i> Cerrar</a></li>');
-
-
     /*Fin de la creacion de la Barra Superior*/
-
 
     /*se crea el contenedor del cuerpo del sistema*/
     $('body').append('<div id="iddivcontainerfluid001funcons002" class="container-fluid"  style="z-index: 1041"></div>');
@@ -126,23 +100,15 @@ function funconstructor002() {
     /*fin de la creacion del contenedor del cuerpo*/
 
     /*se crea la estructura para el Modal del Formulario*/
-/*     $('body').append('<div class="modal" id="IDModalFormulario" tabidex="-1" role="dialog" aria-labelledy="miModalTitulo" aria-hidden="true" style="z-index: 1042"></div>');
-        $('#IDModalFormulario').append('<div class="modal-dialog modal-lg"><div id="IDModalFormularioModalContent" class="modal-content"></div></div>');
-            $('#IDModalFormularioModalContent').append('<div class="modal-header" id="IDModalFormularioheader" style="background-color:#dedede"></div>');
-                $('#IDModalFormularioheader').append('<button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>');
-                $('#IDModalFormularioheader').append('<h4 class="modal-title" id="IDModalFormularioTitulo">Grafica</h4>');
-            $('#IDModalFormularioModalContent').append('<div class="modal-body" id="IDModalFormulariobody"></div>');
-            $('#IDModalFormularioModalContent').append('<div class="modal-footer" id="IDModalFormulariofooter" style="background-color:#dedede"></div>');
-                $('#IDModalFormulariofooter').append('<button type="button" class="btn btn-info" data-dismiss="modal">Cerrar</button>'); */
-        $('body').append('<div id="idmodalformulario" class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="z-index: 1042"></div>');
-            $('#idmodalformulario').append('<div id="idmodaldialog" class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable"></div>');
-                $('#idmodaldialog').append('<div id="idmodalcontent" class="modal-content"></div>');
-                    $('#idmodalcontent').append('<div id="idmodalheader" class="modal-header"></div>');
-                        $('#idmodalheader').append('<h5 id="idmodaltitle" class="modal-title" id="staticBackdropLabel">Modal title</h5>');
-                        $('#idmodalheader').append('<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>');
-                    $('#idmodalcontent').append('<div id="idmodalbody" class="modal-body"></div>');
-                    $('#idmodalcontent').append('<div id="idmodalfooter" class="modal-footer"></div>');
-                        $('#idmodalfooter').append('<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>');
+    $('body').append('<div id="idmodalformulario" class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="z-index: 1042"></div>');
+        $('#idmodalformulario').append('<div id="idmodaldialog" class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable"></div>');
+            $('#idmodaldialog').append('<div id="idmodalcontent" class="modal-content"></div>');
+                $('#idmodalcontent').append('<div id="idmodalheader" class="modal-header"></div>');
+                    $('#idmodalheader').append('<h5 id="idmodaltitle" class="modal-title" id="staticBackdropLabel">Modal title</h5>');
+                    $('#idmodalheader').append('<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>');
+                $('#idmodalcontent').append('<div id="idmodalbody" class="modal-body"></div>');
+                $('#idmodalcontent').append('<div id="idmodalfooter" class="modal-footer"></div>');
+                    $('#idmodalfooter').append('<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>');
     /*fin*/
     
     /*se crea el efecto de tranparencia para esperar la carga*/

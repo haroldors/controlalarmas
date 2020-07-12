@@ -8,8 +8,10 @@ function link001() {
 }
 
 function link002() {
+
 	funconstructor002(); /* Construye la estructura marco */
-	document.getElementById('idlimonitoreofuncons002').click();
+	/* document.getElementById('idlimonitoreofuncons002').click(); */
+	$('#idlimonitoreofuncons002').click();
 	
 
 	/* al presionar el boton panel */
