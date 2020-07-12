@@ -62,6 +62,13 @@ function link002() {
 			}
 		}
 
+		/* al presionar el boton cerrar */
+		document.getElementById('idlicerrarfuncons002').onclick = function() {
+			if (confirm('Esta completamente seguro de cerrar la sesion?')) {
+				link001();
+			}
+		}
+
 		
 }
 
