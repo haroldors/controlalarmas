@@ -25,5 +25,11 @@ function link002() {
 		'', 
 		''
 		);
+	
+		document.getElementById('idbuttonrefreshfuncons005').onclick = funtion() {
+			funconstructor003();
+			funconstructor004();
+			funmensajedeenvio();
+		}
 }
 
