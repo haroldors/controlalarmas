@@ -12,11 +12,11 @@ function link002() {
 	funconstructor002(); /* Construye la estructura marco */
 	/* document.getElementById('idlimonitoreofuncons002').click(); */
 	$('#idlimonitoreofuncons002').click();
-	
+
 
 	/* al presionar el boton panel */
 	document.getElementById('idlipanelfuncons002').onclick = function() {
-		if (document.getElementById('idcolumnaderechafuncons002').style.display == 'none') {				
+		if (document.getElementById('idcolumnaderechafuncons002').style.display == 'none') {
 			document.getElementById('idcolumnaderechafuncons002').style.display='block';
 			document.getElementById('idcolumnaizquierdafuncons002').className='col-xs-12';
 		}
@@ -24,7 +24,7 @@ function link002() {
 
 	/* al presionar el boton monitoreo */
 	document.getElementById('idlimonitoreofuncons002').onclick = function() {
-		if (document.getElementById('idcolumnaderechafuncons002').style.display == 'block') {				
+		if (document.getElementById('idcolumnaderechafuncons002').style.display == 'block') {
 			document.getElementById('idcolumnaderechafuncons002').style.display='none';
 			document.getElementById('idcolumnaizquierdafuncons002').className='col-xs-12 col-sm-9';
 			funconstructor003(); /* construye la estructura de la tabla */
@@ -32,16 +32,16 @@ function link002() {
 			funconstructor005(); /* crea la barra de botones superio de monitor */
 			funmensajedeenvio();
 			funenvio10parametros(
-				2, 
-				'', 
-				'', 
-				'', 
-				'', 
-				'', 
-				'', 
-				'', 
-				'', 
-				'', 
+				2,
+				'',
+				'',
+				'',
+				'',
+				'',
+				'',
+				'',
+				'',
+				'',
 				''
 				);
 
@@ -52,19 +52,19 @@ function link002() {
 				funmensajedeenvio();
 				window.setTimeout(
 					funenvio10parametros(
-						2, 
-						'', 
-						'', 
-						'', 
-						'', 
-						'', 
-						'', 
-						'', 
-						'', 
-						'', 
+						2,
+						'',
+						'',
+						'',
+						'',
+						'',
+						'',
+						'',
+						'',
+						'',
 						''
-						), 2000);			
-			}													
+						), 2000);
+			}
 		}
 	}
 
@@ -79,7 +79,7 @@ function link002() {
 	document.getElementById('idadminsensoresfuncons002').onclick = function() {
 		funconstructor003(); /* carga la estructura de la tabla */
 	}
-		
+
 }
 
 /*la siguiente funcion modifica la distribucion de los div dentro de la ventana*/
@@ -114,16 +114,16 @@ function link004(varidx) {
 
 	window.setTimeout(
 		funenvio10parametros(
-			4, 
-			varidx, 
-			'', 
-			'', 
-			'', 
-			'', 
-			'', 
-			'', 
-			'', 
-			'', 
+			4,
+			varidx,
+			'',
+			'',
+			'',
+			'',
+			'',
+			'',
+			'',
+			'',
 			''
 			), 2000);
 
