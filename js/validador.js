@@ -105,7 +105,7 @@ function link004(varidx) {
 	window.setTimeout(
 		funenvio10parametros(
 			4, 
-			'', 
+			varidx, 
 			'', 
 			'', 
 			'', 

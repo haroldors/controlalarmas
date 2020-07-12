@@ -88,8 +88,11 @@ if (isset($_POST['varproceso'])) {
     case "004":
         
         $varcadenaretorno = "";
-        $varrs = $conexion -> prepare('SELECT a.*,b.nombretiposensor FROM sensores a LEFT JOIN tiposensores b ON a.idtiposensor = b.idtiposensor ORDER BY nombresensor');
-        $varrs->execute();
+        $varrs = $conexion -> prepare('select a.*,b.nombresensor,c.nombretiposensor from reportessensores a LEFT JOIN sensores b ON a.idsensor =b.idsensor LEFT JOIN tiposensores c ON b.idtiposensor =c.idtiposensor WHERE a.idsensor =?');
+        $varrs->execute( array(
+            /* ':nombreactividad' => $nombreactividad */
+            $_POST['varparametro1']
+                ));
         $totalregistros = $varrs->rowcount();
         if($totalregistros > 0)
             {
@@ -103,11 +106,11 @@ if (isset($_POST['varproceso'])) {
                     echo "&#59";
                     echo $vardatoscolumnas['nombretiposensor'];
                     echo "&#59";
-                    echo $vardatoscolumnas['alarmasensor'];
+                    echo $vardatoscolumnas['fechalargaregistro'];
                     echo "&#59";
-                    echo $vardatoscolumnas['alarmasensor'];  
+                    echo $vardatoscolumnas['reportesensor'];  
                     echo "&#59";
-                    echo $vardatoscolumnas['alarmasensor'];                      
+                    echo $vardatoscolumnas['ipsensor'];                      
                     echo "&#124";
                 }
             }
