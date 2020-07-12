@@ -113,9 +113,12 @@ function handleHttpResponse() {
                         funrecorrerdataparadatatable('idtablalistado', 'idfilaheadtablalistado', 'idbodytablalistado', results[2]);
 
                         funasignafuncionentabla('idbodytablalistado', 1, 'link004', 'fas fa-edit', 'Editar','font-size:14px');
-                        funiconoentabla('idtablalistado', 6, 'fas fa-siren-on', 'color:red;font-size:14px', 'Alarma', '0');
-                        funiconoentabla('idtablalistado', 6, 'fas fa-siren fa-3x', 'color:green;font-size:14px', 'Normal', '1');
-                        funasignafuncionentabla('idbodytablalistado', 7, 'link004', 'fas fa-book', 'Editar','font-size:14px');
+                        funiconoentabla('idtablalistado', 6, 'fas fa-times-square', 'color:red;font-size:14px', 'Deshabilitado', '0');
+                        funiconoentabla('idtablalistado', 6, 'fas fa-check-square', 'color:green;font-size:14px', 'Habilitado', '1');
+
+                        funiconoentabla('idtablalistado', 7, 'fas fa-siren-on', 'color:red;font-size:14px', 'Alarma', '0');
+                        funiconoentabla('idtablalistado', 7, 'fas fa-siren fa-3x', 'color:green;font-size:14px', 'Normal', '1');
+                        funasignafuncionentabla('idbodytablalistado', 8, 'link004', 'fas fa-book', 'Editar','font-size:14px');
                         $('#idtablalistado').dataTable({
                             columnDefs: [ { orderable: false, targets: [ 5, 6 ] } ],
                             pageLength: -1,
