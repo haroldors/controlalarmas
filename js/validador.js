@@ -57,7 +57,7 @@ function link002() {
 function link003() {
     if (document.getElementById('idcolumnaderechafuncons002').className == 'col-xs-12 col-sm-3') {
 		/* document.getElementById('idcolumnaderechafuncons002').className = 'col-xs-12'; */
-		document.getElementById('idcolumnaderechafuncons002').style.display='block';
+		document.getElementById('idcolumnaderechafuncons002').style.display='none';
 		/* document.getElementById('idcolumnaizquierdafuncons002').className = 'col-xs-12 col-sm-3'; */
 /*         document.getElementById('idlinkredimencion').className = 'fa fa-plus-square-o fa-1x';
         document.getElementById('idcolumnaderecha').className = 'col-xs-12';
@@ -66,7 +66,7 @@ function link003() {
         document.getElementById('idbuttonlateral').style.display='block';
         document.getElementById('idcolumnaderecha').style.display='none'; */
     } else {
-		document.getElementById('idcolumnaderechafuncons002').style.display='none';
+		document.getElementById('idcolumnaderechafuncons002').style.display='block';
 /*         document.getElementById('idlinkredimencion').className = 'fa fa-minus-square-o fa-1x';
         document.getElementById('idcolumnaderecha').className = 'col-xs-12 col-sm-3';
         document.getElementById('idcolumnaizquierda').className = 'col-xs-12 col-sm-9';
