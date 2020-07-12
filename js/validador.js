@@ -11,7 +11,7 @@ function link002() {
 
 	funconstructor002(); /* Construye la estructura marco */
 	/* document.getElementById('idlimonitoreofuncons002').click(); */
-	$('#idlimonitoreofuncons002').click();
+	window.setTimeout($('#idlimonitoreofuncons002').click(), 2000);
 
 
 	/* al presionar el boton panel */
@@ -85,25 +85,12 @@ function link002() {
 /*la siguiente funcion modifica la distribucion de los div dentro de la ventana*/
 function link003() {
     if (document.getElementById('idcolumnaderechafuncons002').style.display == 'block') {
-		/* document.getElementById('idcolumnaderechafuncons002').className = 'col-xs-12'; */
 		document.getElementById('idcolumnaderechafuncons002').style.display='none';
 		document.getElementById('idcolumnaizquierdafuncons002').className='col-xs-12';
-		/* document.getElementById('idcolumnaizquierdafuncons002').className = 'col-xs-12 col-sm-3'; */
-/*         document.getElementById('idlinkredimencion').className = 'fa fa-plus-square-o fa-1x';
-        document.getElementById('idcolumnaderecha').className = 'col-xs-12';
-        document.getElementById('idcolumnaizquierda').className = 'col-xs-12';
-        document.getElementById('idpanelbodyizquierdo').style.display = 'none';
-        document.getElementById('idbuttonlateral').style.display='block';
-        document.getElementById('idcolumnaderecha').style.display='none'; */
+
     } else {
 		document.getElementById('idcolumnaderechafuncons002').style.display='block';
 		document.getElementById('idcolumnaizquierdafuncons002').className='col-xs-12 col-sm-9';
-/*         document.getElementById('idlinkredimencion').className = 'fa fa-minus-square-o fa-1x';
-        document.getElementById('idcolumnaderecha').className = 'col-xs-12 col-sm-3';
-        document.getElementById('idcolumnaizquierda').className = 'col-xs-12 col-sm-9';
-        document.getElementById('idpanelbodyizquierdo').style.display = 'block';
-        document.getElementById('idbuttonlateral').style.display='none';
-        document.getElementById('idcolumnaderecha').style.display='block'; */
     }
 }
 
