@@ -3,7 +3,7 @@ function link001() {
 
 	document.getElementById('idbuttonaceptarfuncons001').onclick = function() {
 		link002();
-		link003();
+		/* link003(); */
 	}
 }
 
@@ -45,6 +45,11 @@ function link002() {
 					'', 
 					''
 					), 2000);			
+		}
+
+		document.getElementById('idlimonitoreofuncons002').onclick = function() {
+			alert("prueba");
+			link003();
 		}
 }
 
