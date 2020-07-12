@@ -241,4 +241,9 @@ function funconstructor009() {
 
 function funconstructor010() {
     document.getElementById('idmodaltitle').innerHTML='Formulario de Ingreso de Sensores';
+    document.getElementById('idmodalbody').innerHTML='';
+    $('#idmodalbody').append('<form id="idformfuncons010"></form>');
+        $('#idformfuncons010').append('<div id="idformgroup001funcons010" class="form-group"></div>');
+            $('#idformgroup001funcons010').append('<label for="exampleFormControlInput1">Nombre:</label>');
+            $('#idformgroup001funcons010').append('<input type="text" class="form-control" id="idinput001funcons010" placeholder="Nombre Sensor">');
 }
