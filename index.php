@@ -21,10 +21,13 @@
     <link type="text/css" href="css/style001.css" rel="stylesheet">
     <!-- <link type="text/css" href="css/CssAutoGenerado.css" rel="stylesheet"> -->
 
-    <script type="text/javascript" src="jquery331/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="jquery351min/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="bootstrap-450-dist/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="DataTables/DataTables-1.10.21/js/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" src="DataTables/DataTables-1.10.21/js/dataTables.bootstrap4.min.js"></script>
+<!--     <script type="text/javascript" src="DataTables/DataTables-1.10.21/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="DataTables/DataTables-1.10.21/js/dataTables.bootstrap4.min.js"></script> -->
+
+    <link rel="stylesheet" type="text/css" href="DataTables/datatables.min.css"/> 
+    <script type="text/javascript" src="DataTables/datatables.min.js"></script>
 
     <script type="text/javascript" src="js/validador.min.js"></script>
     <script type="text/javascript" src="js/interfaz.min.js"></script>
@@ -34,7 +37,8 @@
 </head>
 <body onload="javascript:NoBack()" onsubmit="return false">
 <script>
-link001();
+/* link001(); */
 </script>
+https://unpkg.com/@popperjs/core@2.4.4/dist/umd/popper.min.js
 </body>
 </html>
