@@ -70,8 +70,9 @@ function link002() {
 			}
 		}
 
+		/* al presionar el boton administracion de sensores */
 		document.getElementById('idadminsensoresfuncons002').onclick = function() {
-			alert('prueba');
+			funconstructor003(); /* carga la estructura de la tabla */
 		}
 		
 }
