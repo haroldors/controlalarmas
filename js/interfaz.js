@@ -154,7 +154,6 @@ function handleHttpResponse() {
 
                         funmensajedeenvio();
                         abrirmodalformulario();
-                        funconstructor010();
                         funrecorrerdatadeselect('idselect001funcons010', results[2]);
                         $('#idinput001funcons010').click();
 
