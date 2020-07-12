@@ -191,7 +191,6 @@ function funconstructor004() {
 /* crea la barra de botones superior de la vista de reportes */
 function funconstructor005() {
     document.getElementById('iddivcardheaderfuncons002').innerHTML = '';
-    $('#iddivcardheaderfuncons002').append('<div id="idbtntoolbarfuncons005" class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups"></div>');
-        $('#idbtntoolbarfuncons005').append('<div id="idbtngrouptoolbarfuncons005" class="btn-group mr-2" role="group" aria-label="First group"></div>');
-            $('#idbtngrouptoolbarfuncons005').append('<button type="button" class="btn btn-default" title="Menu Lateral" onclick="link060()" id="idbuttonlateral" style="display:none">Refresh</button>');
+    $('#iddivcardheaderfuncons002').append('<div id="idbtngroupfuncons005" class="btn-group" role="group" aria-label="Basic example"></div>');
+        $('#idbtngroupfuncons005').append('<button type="button" class="btn btn-secondary">Left</button>');
 }
