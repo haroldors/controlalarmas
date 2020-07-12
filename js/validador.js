@@ -120,8 +120,20 @@ function link002() {
 
 		/*el siguiente codigo se ejecuta al presionar el boton agregar en la barra superior*/
 		document.getElementById('idbuttonagregarfuncons099'). onclick = function() {
-			abrirmodalformulario();
-			funconstructor010();
+			funmensajedeenvio();
+			funenvio10parametros(
+				6,
+				'',
+				'',
+				'',
+				'',
+				'',
+				'',
+				'',
+				'',
+				'',
+				''
+				);
 		}
 
 	}

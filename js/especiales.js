@@ -13,7 +13,7 @@ function funmensajedeenvio() {
         document.getElementById('iddivprocesando001').style.display = "none";
         document.getElementById('iddivprocesando002').style.display = "none";
     }
-} 
+}
 
 /*Esta Funcion envia 10 parametros*/
 function funenvio10parametros(varprocesox, varparametro1x, varparametro2x, varparametro3x, varparametro4x, varparametro5x, varparametro6x, varparametro7x, varparametro8x, varparametro9x, varparametro10x) {
@@ -115,3 +115,23 @@ function funiconoentabla(tablax, varposicionx, varclassx, varstylex, vartitlex, 
         }
     }
 }
+
+/*Esta funcion segmenta los registros recueprados para agregarlos a un select mediante la funcion funCargarDataEnSelect*/
+function funrecorrerdatadeselect(varidcampo, vardatadetablax) {
+    var contador = 0;
+    var varcadenaenfilasx = vardatadetablax.split("&#124");
+    var varcantidaddefilas = varcadenaenfilasx.length - 1;
+
+    do {
+        funcargardataenselect(varidcampo, varcadenaenfilasx[contador]);
+        contador++;
+    } while (contador < varcantidaddefilas);
+}
+
+function funcargardataenselect(varidcampo, varcadenax) {
+    var varestringx = varcadenax.split("&#59");
+    var varcantidad = document.getElementById(varidcampo).options.length;
+    document.getElementById(varidcampo).options[(varcantidad)] = new Option(varestringx[1], varestringx[0]);
+}
+
+/*fin*/

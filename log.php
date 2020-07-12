@@ -161,6 +161,33 @@ if (isset($_POST['varproceso'])) {
         $varrs = null;
     break;
 
+    /*este proceso recupera la lista de sensores*/
+    case "006":
+
+        $varcadenaretorno = "";
+        $varrs = $conexion -> prepare('SELECT * FROM tiposensores WHERE estadotiposensor=1 ORDER BY nombretiposensor DESC');
+        $varrs->execute();
+        $totalregistros = $varrs->rowcount();
+        if($totalregistros > 0)
+            {
+                printf("006;ConDatos;");
+                $varresultados = $varrs -> fetchall();
+                foreach($varresultados as $vardatoscolumnas) {
+
+                    echo $vardatoscolumnas['idtiposensor'];
+                    echo "&#59";
+                    echo $vardatoscolumnas['nombretiposensor'];
+                    echo "&#124";
+
+                }
+            }
+        else
+            {
+                echo"006;SinDatos";
+            }
+        $varrs = null;
+    break;
+
 
     endswitch;
 }

@@ -149,6 +149,20 @@ function handleHttpResponse() {
                 };
 
 
+                if (results[0] == "006") {
+                    if (results[1] == "ConDatos") {
+
+                        funmensajedeenvio();
+                        abrirmodalformulario();
+                        funconstructor010();
+                        funrecorrerdatadeselect('idselect001funcons010', results[2]);
+
+                    } else {
+                        funmensajedeenvio();
+                        document.getElementById('idcaptiontablalistado').innerHTML = 'Codigos de Articulos [0]';
+                    }
+                };
+
             }
         }
     }
