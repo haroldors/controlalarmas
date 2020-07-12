@@ -72,7 +72,7 @@ function funconstructor002() {
         $('#iddivcontainerfluid001funcons002').append('<div id="iddivcontainerfluid002funcons002" class="container-fluid"></div>');
             $('#iddivcontainerfluid002funcons002').append('<div id="iddivrow001funcons002" class="row"></div>');
 
-                $('#iddivrow001funcons002').append('<div class="col-xs-12 col-sm-3" id="idcolumnaderechafuncons002" style="display:block"></div>');
+                $('#iddivrow001funcons002').append('<div class="col-3" id="idcolumnaderechafuncons002" style="display:block"></div>');
                     $('#idcolumnaderechafuncons002').append('<div id="iddivcardfuncons002" class="card" style="width: 18rem;"></div>');
                         $('#iddivcardfuncons002').append('<div class="card-header">PANEL</div>');
                         $('#iddivcardfuncons002').append('<ul id="idulpanelderecho" class="list-group list-group-flush"></ul>');
@@ -80,7 +80,7 @@ function funconstructor002() {
                             $('#idulpanelderecho').append('<li class="list-group-item"><i class="fas fa-users-cog"></i> Administracion Usuarios</li>');
                             $('#idulpanelderecho').append('<li id="idadminsensoresfuncons002" class="list-group-item"><i class="fas fa-wrench"></i> Administracion Sensores</li>');
 
-                $('#iddivrow001funcons002').append('<div class="col-xs-12 col-sm-9" id="idcolumnaizquierdafuncons002" style="display:block"></div>');
+                $('#iddivrow001funcons002').append('<div class="col-9" id="idcolumnaizquierdafuncons002" style="display:block"></div>');
                     $('#idcolumnaizquierdafuncons002').append('<div id="iddivcardizquierdafuncons002" class="card"></div>');
                         $('#iddivcardizquierdafuncons002').append('<div id="iddivcardheaderfuncons002" class="card-header">En Desarrollo ...</div>');
                         $('#iddivcardizquierdafuncons002').append('<div id="iddivcardbodyfuncons002" class="card-body">En Desarrollo ...</div>');
