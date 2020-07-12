@@ -30,19 +30,21 @@ function link002() {
 			funconstructor003();
 			funconstructor004();
 			funmensajedeenvio();
-			funenvio10parametros(
-				2, 
-				'', 
-				'', 
-				'', 
-				'', 
-				'', 
-				'', 
-				'', 
-				'', 
-				'', 
-				''
-				);			
+			window.setTimeout(
+				funenvio10parametros(
+					2, 
+					'', 
+					'', 
+					'', 
+					'', 
+					'', 
+					'', 
+					'', 
+					'', 
+					'', 
+					''
+					)
+				, 2000);			
 		}
 }
 
