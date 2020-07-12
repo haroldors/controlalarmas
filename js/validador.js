@@ -48,7 +48,6 @@ function link002() {
 		}
 
 		document.getElementById('idlimonitoreofuncons002').onclick = function() {
-			alert("prueba");
 			link003();
 		}
 }
