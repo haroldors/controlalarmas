@@ -192,5 +192,6 @@ function funconstructor004() {
 function funconstructor005() {
     document.getElementById('iddivcardheaderfuncons002').innerHTML = '';
     $('#iddivcardheaderfuncons002').append('<div id="idbtngroupfuncons005" class="btn-group" role="group" aria-label="Basic example"></div>');
-        $('#idbtngroupfuncons005').append('<button type="button" class="btn btn-secondary">Left</button>');
+        $('#idbtngroupfuncons005').append('<button type="button" class="btn btn-secondary"><i class="fas fa-sync-alt"></i></button>');
+        $('#idbtngroupfuncons005').append('<button type="button" class="btn btn-secondary"><i class="fas fa-sync-alt"></i></button>');
 }
