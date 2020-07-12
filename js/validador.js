@@ -99,6 +99,8 @@ function link002() {
 
 		/*el siguiente codigo se ejecuta la momento de dar click en el boton refresh*/
 		document.getElementById('idbuttonrefreshfuncons009').onclick = function() {
+			funconstructor003(); /* carga la estructura de la tabla */
+			funconstructor008(); /*carga la estructura de los encabezados de la tabla*/
 			funmensajedeenvio();
 			window.setTimeout(
 				funenvio10parametros(
