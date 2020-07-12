@@ -262,6 +262,8 @@ function funconstructor010() {
             $('#idformgroup004funcons010').append('<label for="idselect002funcons010" class="col-sm-2 col-form-label">Estado:</label>');
             $('#idformgroup004funcons010').append('<div class="col-sm-10"><select id="idselect002funcons010" class="form-control"></select></div>');
                 $('#idselect002funcons010').append('<option selected value="-">Por Favor Seleccione</option>');
+                $('#idselect002funcons010').append('<option value="1">HABILITADO</option>');
+                $('#idselect002funcons010').append('<option value="0">DESHABILITADO</option>');
 
     document.getElementById('idmodalfooter').innerHTML='';
     $('#idmodalfooter').append('<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>');
