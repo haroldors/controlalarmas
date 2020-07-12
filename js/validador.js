@@ -117,6 +117,12 @@ function link002() {
 					''
 					), 2000);
 		}
+
+		/*el siguiente codigo se ejecuta al presionar el boton agregar en la barra superior*/
+		document.getElementById('idbuttonagregarfuncons099'). onclick = function() {
+			abrirmodalformulario();
+		}
+
 	}
 
 }
