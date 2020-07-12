@@ -16,7 +16,7 @@
   <link href="fontawesomepro5131web/css/solid.css" rel="stylesheet">
 
   <!-- custom styling for all icons -->
-    <!-- <link type="text/css" href="DataTables/DataTables11016/css/dataTables.bootstrap4.min.css" rel="stylesheet"> -->
+    <link type="text/css" href="DataTables/DataTables-1.10.21/css/dataTables.bootstrap4.min.css" rel="stylesheet">
 
     <link type="text/css" href="css/style001.css" rel="stylesheet">
     <!-- <link type="text/css" href="css/CssAutoGenerado.css" rel="stylesheet"> -->
@@ -24,8 +24,8 @@
     <script type="text/javascript" src="jquery351min/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="popper/popper.min.js"></script>
     <script type="text/javascript" src="bootstrap-450-dist/js/bootstrap.min.js"></script>
-<!--     <script type="text/javascript" src="DataTables/DataTables-1.10.21/js/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" src="DataTables/DataTables-1.10.21/js/dataTables.bootstrap4.min.js"></script> -->
+    <script type="text/javascript" src="DataTables/DataTables-1.10.21/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="DataTables/DataTables-1.10.21/js/dataTables.bootstrap4.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="DataTables/datatables.min.css"/> 
     <script type="text/javascript" src="DataTables/datatables.min.js"></script>
