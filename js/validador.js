@@ -101,4 +101,6 @@ function link003() {
 function link004(varidx) {
 	/* funmensajedeenvio(); */
 	abrirmodalformulario();
+	funconstructor006();
+	funconstructor007();
 }

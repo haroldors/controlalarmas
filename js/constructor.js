@@ -140,7 +140,7 @@ function funconstructor002() {
                     $('#idmodalcontent').append('<div id="idmodalheader" class="modal-header"></div>');
                         $('#idmodalheader').append('<h5 id="modaltitle" class="modal-title" id="staticBackdropLabel">Modal title</h5>');
                         $('#idmodalheader').append('<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>');
-                    $('#idmodalcontent').append('<div class="modal-body"></div>');
+                    $('#idmodalcontent').append('<div id="idmodalbody" class="modal-body"></div>');
                     $('#idmodalcontent').append('<div id="modalfooter" class="modal-footer"></div>');
                         $('#modalfooter').append('<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>');
     /*fin*/
@@ -203,4 +203,40 @@ function funconstructor005() {
     $('#iddivcardheaderfuncons002').append('<div id="idbtngroupfuncons005" class="btn-group" role="group" aria-label="Basic example"></div>');
         $('#idbtngroupfuncons005').append('<button id="idbuttonrefreshfuncons005" type="button" class="btn btn-secondary"><i class="fas fa-sync-alt"></i></button>');
         $('#idbtngroupfuncons005').append('<button type="button" class="btn btn-secondary"><i class="fas fa-file-csv"></i></button>');
+}
+
+/* contruye la estructura de la tabla detalle */
+function funconstructor006() {    
+    document.getElementById('idmodalbody').innerHTML = '';
+    $('#idmodalbody').append('<div id="idtableresponsivefuncons006" class="table-responsive-sm"></div>');
+    $('#idtableresponsivefuncons006').append('<table id="idtablalistadodetalle" class="table table-hover table-bordered table-condensed table-sm"></table>');
+        $('#idtablalistadodetalle').append('<caption id="idcaptiontablalistadodetalle"></caption>');
+        $('#idtablalistadodetalle').append('<thead id="idheadtablalistadodetalle"></thead>');
+        $('#idtablalistadodetalle').append('<tbody id="idbodytablalistadodetalle"></tbody>');
+        $('#idtablalistadodetalle').append('<tfoot id="idfoottablalistadodetalle"></tbody>');
+}
+
+/* construye la estructura interna de la tabla de lista detalle de reportes de sensores */
+function funconstructor007() {
+
+    document.getElementById('idcaptiontablalistadodetalle').innerHTML = 'Listado de Reportes de Sensores';
+    document.getElementById('idheadtablalistadodetalle').innerHTML = '';
+    $('#idheadtablalistadodetalle').append('<tr id="idfilaheadtablalistadodetalle" class="thead-dark"></tr>');
+        $('#idfilaheadtablalistadodetalle').append('<th>Item</th>');
+        $('#idfilaheadtablalistadodetalle').append('<th>ID</th>');
+        $('#idfilaheadtablalistadodetalle').append('<th>Sensor</th>');
+        $('#idfilaheadtablalistadodetalle').append('<th>Fecha</th>');      
+        $('#idfilaheadtablalistadodetalle').append('<th>IP</th>');
+        $('#idfilaheadtablalistadodetalle').append('<th>-</th>');
+    document.getElementById('idfoottablalistadodetalle').innerHTML = '';
+    $('#idfoottablalistadodetalle').append('<tr id="idfilafoottablalistadodetalle" class="thead-dark"></tr>');
+        $('#idfilafoottablalistadodetalle').append('<th>Item</th>');
+        $('#idfilafoottablalistadodetalle').append('<th>ID</th>');
+        $('#idfilafoottablalistadodetalle').append('<th>Sensor</th>');
+        $('#idfilafoottablalistadodetalle').append('<th>Fecha</th>');      
+        $('#idfilafoottablalistadodetalle').append('<th>IP</th>');
+        $('#idfilafoottablalistadodetalle').append('<th>-</th>');        
+
+    document.getElementById('idbodytablalistadodetalle').innerHTML = '';
+
 }
