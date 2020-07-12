@@ -12,7 +12,7 @@ function link002() {
 	funconstructor004(); /* construye la estructura interna de la tabla de sesnsores */
 	funmensajedeenvio();
 	funenvio10parametros(
-		3, 
+		2, 
 		'', 
 		'', 
 		'', 
