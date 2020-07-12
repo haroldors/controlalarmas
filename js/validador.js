@@ -18,7 +18,7 @@ function link002() {
 	document.getElementById('idlipanelfuncons002').onclick = function() {
 		if (document.getElementById('idcolumnaderechafuncons002').style.display == 'none') {
 			document.getElementById('idcolumnaderechafuncons002').style.display='block';
-			document.getElementById('idcolumnaizquierdafuncons002').className='col-xs-12';
+			document.getElementById('idcolumnaizquierdafuncons002').className='col-xs-12 col-sm-9';
 		}
 	}
 
@@ -26,7 +26,7 @@ function link002() {
 	document.getElementById('idlimonitoreofuncons002').onclick = function() {
 		if (document.getElementById('idcolumnaderechafuncons002').style.display == 'block') {
 			document.getElementById('idcolumnaderechafuncons002').style.display='none';
-			document.getElementById('idcolumnaizquierdafuncons002').className='col-xs-12 col-sm-9';
+			document.getElementById('idcolumnaizquierdafuncons002').className='col-xs-12';
 			funconstructor003(); /* construye la estructura de la tabla */
 			funconstructor004(); /* construye la estructura interna de la tabla de sesnsores */
 			funconstructor005(); /* crea la barra de botones superio de monitor */
