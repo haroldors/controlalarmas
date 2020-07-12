@@ -138,11 +138,11 @@ function funconstructor002() {
             $('#idmodalformulario').append('<div id="idmodaldialog" class="modal-dialog"></div>');
                 $('#idmodaldialog').append('<div id="idmodalcontent" class="modal-content"></div>');
                     $('#idmodalcontent').append('<div id="idmodalheader" class="modal-header"></div>');
-                        $('#idmodalheader').append('<h5 id="modaltitle" class="modal-title" id="staticBackdropLabel">Modal title</h5>');
+                        $('#idmodalheader').append('<h5 id="idmodaltitle" class="modal-title" id="staticBackdropLabel">Modal title</h5>');
                         $('#idmodalheader').append('<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>');
                     $('#idmodalcontent').append('<div id="idmodalbody" class="modal-body"></div>');
-                    $('#idmodalcontent').append('<div id="modalfooter" class="modal-footer"></div>');
-                        $('#modalfooter').append('<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>');
+                    $('#idmodalcontent').append('<div id="idmodalfooter" class="modal-footer"></div>');
+                        $('#idmodalfooter').append('<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>');
     /*fin*/
     
     /*se crea el efecto de tranparencia para esperar la carga*/
