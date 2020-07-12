@@ -62,7 +62,7 @@ function handleHttpResponse() {
                         funiconoentabla('idtablalistado', 6, 'fa fa-check-square-o fa-1x', 'color:green;font-size:14px', 'Habilitado', 'Verdadero');
                         funiconoentabla('idtablalistado', 6, 'fa fa-window-close-o fa-1x', 'color:Red;font-size:14px', 'Deshabilitado', 'Falso');
                         funAsignaFuncionenTabla('idbodytablalistado', 1, 'link053', 'fa fa-pencil-square-o fa-1x', 'Editar','font-size:14px'); */
-                        funasignafuncionentabla('idbodytablalistado', 1, 'link004', 'fa fa-pencil-square-o fa-1x', 'Editar','font-size:14px');
+                        funasignafuncionentabla('idbodytablalistado', 1, 'link004', 'fa fa-search-plus', 'Editar','font-size:14px');
                         $('#idtablalistado').dataTable({
                             columnDefs: [ { orderable: false, targets: [ 1, 5 ] } ],
                             pageLength: -1,
