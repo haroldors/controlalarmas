@@ -93,5 +93,5 @@ function funasignafuncionentabla(tablax, varposicionx, varfuncionx, varclasex, v
 }
 
 function abrirmodalformulario() {
-    $("#IDModalFormulario").modal('show');
+    $("#idmodalformulario").modal('show');
 }
