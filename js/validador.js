@@ -70,6 +70,9 @@ function link002() {
 			}
 		}
 
+		document.getElementById('idadminsensoresfuncons002').onclick = function() {
+			alert('prueba');
+		}
 		
 }
 
