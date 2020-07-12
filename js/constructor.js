@@ -239,6 +239,7 @@ function funconstructor009() {
         $('#idbtngroupfuncons009').append('<button id="idbuttonagregarfuncons099" type="button" class="btn btn-secondary"><i class="fas fa-plus"></i></button>');
 }
 
+/*crea el formulario para nuevos sensores*/
 function funconstructor010() {
     document.getElementById('idmodaltitle').innerHTML='Formulario de Ingreso de Sensores';
     document.getElementById('idmodalbody').innerHTML='';
@@ -256,4 +257,9 @@ function funconstructor010() {
         $('#idformfuncons010').append('<div id="idformgroup003funcons010" class="form-group row"></div>');
             $('#idformgroup003funcons010').append('<label for="idinput002funcons010" class="col-sm-2 col-form-label">IP:</label>');
             $('#idformgroup003funcons010').append('<div class="col-sm-10"><input type="text" class="form-control" id="idinput002funcons010" placeholder="Direccion IP"></div>');
+
+        $('#idformfuncons010').append('<div id="idformgroup004funcons010" class="form-group row"></div>');
+            $('#idformgroup004funcons010').append('<label for="idselect002funcons010" class="col-sm-2 col-form-label">Estado:</label>');
+            $('#idformgroup004funcons010').append('<div class="col-sm-10"><select id="idselect002funcons010" class="form-control"></select></div>');
+                $('#idselect002funcons010').append('<option selected value="-">Por Favor Seleccione</option>');
 }
