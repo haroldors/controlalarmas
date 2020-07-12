@@ -12,7 +12,7 @@ function link002() {
 	funconstructor003(); /* construye la estructura de la tabla */
 	funconstructor004(); /* construye la estructura interna de la tabla de sesnsores */
 	funconstructor005();
-	document.getElementById('idlimonitoreofuncons002').click;
+	document.getElementById('idlimonitoreofuncons002').click();
 	funmensajedeenvio();
 	funenvio10parametros(
 		2, 
