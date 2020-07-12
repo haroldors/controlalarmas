@@ -99,6 +99,6 @@ function link003() {
 
 /* la siguiente funcion despliega los reportes */
 function link004(varidx) {
-	funmensajedeenvio();
+	/* funmensajedeenvio(); */
 	abrirmodalformulario();
 }
