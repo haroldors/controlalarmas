@@ -82,8 +82,43 @@ if (isset($_POST['varproceso'])) {
                 echo"002;SinDatos";
             }
         $varrs = null;
-
     break;
+
+    /*este proceso recupera la data de la tabla de detalle de reportes de un sensor*/
+    case "004":
+        
+        $varcadenaretorno = "";
+        $varrs = $conexion -> prepare('SELECT a.*,b.nombretiposensor FROM sensores a LEFT JOIN tiposensores b ON a.idtiposensor = b.idtiposensor ORDER BY nombresensor');
+        $varrs->execute();
+        $totalregistros = $varrs->rowcount();
+        if($totalregistros > 0)
+            {
+                printf("004;ConDatos;");
+                $varresultados = $varrs -> fetchall();
+                foreach($varresultados as $vardatoscolumnas) {
+
+                    echo $vardatoscolumnas['idsensor'];
+                    echo "&#59";
+                    echo $vardatoscolumnas['nombresensor'];
+                    echo "&#59";
+                    echo $vardatoscolumnas['nombretiposensor'];
+                    echo "&#59";
+                    echo $vardatoscolumnas['alarmasensor'];
+                    echo "&#59";
+                    echo $vardatoscolumnas['alarmasensor'];  
+                    echo "&#59";
+                    echo $vardatoscolumnas['alarmasensor'];                      
+                    echo "&#124";
+                }
+            }
+        else
+            {
+                echo"004;SinDatos";
+            }
+        $varrs = null;
+    break;
+
+
     endswitch;
 }
 

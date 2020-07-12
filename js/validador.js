@@ -104,4 +104,20 @@ function link004(varidx) {
 	funconstructor006();
 	funconstructor007();
 	document.getElementById('idmodaltitle').innerHTML ="Detalle";
+
+	window.setTimeout(
+		funenvio10parametros(
+			4, 
+			'', 
+			'', 
+			'', 
+			'', 
+			'', 
+			'', 
+			'', 
+			'', 
+			'', 
+			''
+			), 2000);
+
 }
