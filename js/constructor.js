@@ -181,16 +181,18 @@ function funconstructor004() {
         $('#idfilaheadtablalistado').append('<th>Item</th>');
         $('#idfilaheadtablalistado').append('<th>ID</th>');
         $('#idfilaheadtablalistado').append('<th>Sensor</th>');
-        $('#idfilaheadtablalistado').append('<th>Fecha</th>');      
+        $('#idfilaheadtablalistado').append('<th>Tipo</th>');      
         $('#idfilaheadtablalistado').append('<th>IP</th>');
+        $('#idfilaheadtablalistado').append('<th>-</th>');
         $('#idfilaheadtablalistado').append('<th>-</th>');
     document.getElementById('idfoottablalistado').innerHTML = '';
     $('#idfoottablalistado').append('<tr id="idfilafoottablalistado" class="thead-dark"></tr>');
         $('#idfilafoottablalistado').append('<th>Item</th>');
         $('#idfilafoottablalistado').append('<th>ID</th>');
         $('#idfilafoottablalistado').append('<th>Sensor</th>');
-        $('#idfilafoottablalistado').append('<th>Fecha</th>');      
+        $('#idfilafoottablalistado').append('<th>Tipo</th>');      
         $('#idfilafoottablalistado').append('<th>IP</th>');
+        $('#idfilafoottablalistado').append('<th>-</th>');
         $('#idfilafoottablalistado').append('<th>-</th>');        
 
     document.getElementById('idbodytablalistado').innerHTML = '';
