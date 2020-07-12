@@ -82,7 +82,7 @@ if (isset($_POST['varproceso'])) {
         $varrs = null;
 
     break;
-
+    endswitch;
 }
 
 ?>
