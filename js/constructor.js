@@ -135,7 +135,7 @@ function funconstructor002() {
             $('#IDModalFormularioModalContent').append('<div class="modal-footer" id="IDModalFormulariofooter" style="background-color:#dedede"></div>');
                 $('#IDModalFormulariofooter').append('<button type="button" class="btn btn-info" data-dismiss="modal">Cerrar</button>'); */
         $('body').append('<div id="idmodalformulario" class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="z-index: 1042"></div>');
-            $('#idmodalformulario').append('<div id="idmodaldialog" class="modal-dialog modal-dialog-centered modal-dialog-scrollable"></div>');
+            $('#idmodalformulario').append('<div id="idmodaldialog" class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable"></div>');
                 $('#idmodaldialog').append('<div id="idmodalcontent" class="modal-content"></div>');
                     $('#idmodalcontent').append('<div id="idmodalheader" class="modal-header"></div>');
                         $('#idmodalheader').append('<h5 id="idmodaltitle" class="modal-title" id="staticBackdropLabel">Modal title</h5>');
