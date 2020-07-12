@@ -6,7 +6,7 @@ function funconstructor001() {
     /*la siguiente cadena de instrucciones crea el la estructura de login*/
     document.body.innerHTML="";
     $('body').append('<div id="iddivcontainerfuncon001" class="container col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6 col-lg-offset-4 col-lg-4" style="padding-top:100px"></div>');
-        $('#iddivcontainerfuncon001').append('<div id="iddivcardfuncons001" class="card text-white bg-dark mb-3" style="max-width: 36rem;"></div>');            
+        $('#iddivcontainerfuncon001').append('<div id="iddivcardfuncons001" class="card text-white bg-dark mb-3" style="max-width: 36rem;"></div>');
             $('#iddivcardfuncons001').append('<div id="iddivcardheaderfuncon001" class="card-header text-center"></div>');
                 $('#iddivcardheaderfuncon001').append('<div class="text-center"><img src="images/SmallLogo.png" width="166" height="100" class="rounded" alt="Brainiac"></img></div>');
 
@@ -19,7 +19,7 @@ function funconstructor001() {
                     $('#idformfuncons001').append('<div id="idformrow002funcon001" class="form-group row"></div>');
                         $('#idformrow002funcon001').append('<label for="iddivinput002funcons001" class="col-sm-4 col-form-label">Password:</label>');
                         $('#idformrow002funcon001').append('<div id="iddivinput002funcons001" class="col-sm-8"></div>');
-                            $('#iddivinput002funcons001').append('<input type="text" class="form-control" id="idinputpasswordfuncons001" placeholder="Ingrese Password...">');                                
+                            $('#iddivinput002funcons001').append('<input type="text" class="form-control" id="idinputpasswordfuncons001" placeholder="Ingrese Password...">');
                     $('#idformfuncons001').append('<div id="idformrow003funcon001" class="form-group row"></div>');
                         $('#idformrow003funcon001').append('<div class="mx-auto"><button id="idbuttonaceptarfuncons001" type="button" class="btn btn-light"><i class="fas fa-arrow-alt-circle-right"></i> Aceptar</button></div>');
             $('#iddivcardfuncons001').append('<div id="iddivcardbody002funcon001" class="card-body" style="padding:0.25rem;min-height:0.5px"></div>');
@@ -62,14 +62,14 @@ function funconstructor002() {
             $('#iddivcollapsefuncons002').append('<a class="navbar-brand" href="#">Brainiac</a>    ');
             $('#iddivcollapsefuncons002').append('<ul id="idul001funcons002" class="navbar-nav mr-auto mt-2 mt-lg-0"></ul>');
                 $('#idul001funcons002').append('<li class="nav-item"><a id="idlipanelfuncons002" class="nav-link" href="#"><i class="fas fa-cog"></i> Panel</a></li>');
-                $('#idul001funcons002').append('<li class="nav-item"><a id="idlimonitoreofuncons002" class="nav-link" href="#"><i class="fas fa-siren-on"></i> Monitoreo</a></li>');            
+                $('#idul001funcons002').append('<li class="nav-item"><a id="idlimonitoreofuncons002" class="nav-link" href="#"><i class="fas fa-siren-on"></i> Monitoreo</a></li>');
             $('#iddivcollapsefuncons002').append('<ul id="idul002funcons002" class="navbar-nav my-2 my-lg-0"></ul>');
                 $('#idul002funcons002').append('<li class="nav-item"><a id="idlicerrarfuncons002" class="nav-link" href="#"><i class="fas fa-power-off"></i> Cerrar</a></li>');
     /*Fin de la creacion de la Barra Superior*/
 
     /*se crea el contenedor del cuerpo del sistema*/
     $('body').append('<div id="iddivcontainerfluid001funcons002" class="container-fluid"  style="z-index: 1041"></div>');
-        $('#iddivcontainerfluid001funcons002').append('<div id="iddivcontainerfluid002funcons002" class="container-fluid"></div>');    
+        $('#iddivcontainerfluid001funcons002').append('<div id="iddivcontainerfluid002funcons002" class="container-fluid"></div>');
             $('#iddivcontainerfluid002funcons002').append('<div id="iddivrow001funcons002" class="row"></div>');
 
                 $('#iddivrow001funcons002').append('<div class="col-xs-12 col-sm-3" id="idcolumnaderechafuncons002" style="display:block"></div>');
@@ -97,7 +97,7 @@ function funconstructor002() {
                 $('#idmodalcontent').append('<div id="idmodalfooter" class="modal-footer"></div>');
                     $('#idmodalfooter').append('<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>');
     /*fin*/
-    
+
     /*se crea el efecto de tranparencia para esperar la carga*/
     $('body').append('<div id="iddivprocesando001" style="position: fixed;display:none;z-index: 1043"></div>');
     $('#iddivprocesando001').append('<div id="iddivprocesando002" style="display:none" class="container"></div>');
@@ -115,7 +115,7 @@ function funconstructor002() {
 }
 
 /* contruye la estructura de la tabla */
-function funconstructor003() {    
+function funconstructor003() {
     document.getElementById('iddivcardbodyfuncons002').innerHTML = '';
     $('#iddivcardbodyfuncons002').append('<div id="idtableresponsivefuncons003" class="table-responsive-sm"></div>');
     $('#idtableresponsivefuncons003').append('<table id="idtablalistado" class="table table-hover table-bordered table-condensed table-sm"></table>');
@@ -134,7 +134,7 @@ function funconstructor004() {
         $('#idfilaheadtablalistado').append('<th>Item</th>');
         $('#idfilaheadtablalistado').append('<th>ID</th>');
         $('#idfilaheadtablalistado').append('<th>Sensor</th>');
-        $('#idfilaheadtablalistado').append('<th>Tipo</th>');      
+        $('#idfilaheadtablalistado').append('<th>Tipo</th>');
         $('#idfilaheadtablalistado').append('<th>IP</th>');
         $('#idfilaheadtablalistado').append('<th>-</th>');
         $('#idfilaheadtablalistado').append('<th>-</th>');
@@ -143,10 +143,10 @@ function funconstructor004() {
         $('#idfilafoottablalistado').append('<th>Item</th>');
         $('#idfilafoottablalistado').append('<th>ID</th>');
         $('#idfilafoottablalistado').append('<th>Sensor</th>');
-        $('#idfilafoottablalistado').append('<th>Tipo</th>');      
+        $('#idfilafoottablalistado').append('<th>Tipo</th>');
         $('#idfilafoottablalistado').append('<th>IP</th>');
         $('#idfilafoottablalistado').append('<th>-</th>');
-        $('#idfilafoottablalistado').append('<th>-</th>');        
+        $('#idfilafoottablalistado').append('<th>-</th>');
 
     document.getElementById('idbodytablalistado').innerHTML = '';
 
@@ -161,7 +161,7 @@ function funconstructor005() {
 }
 
 /* contruye la estructura de la tabla detalle */
-function funconstructor006() {    
+function funconstructor006() {
     document.getElementById('idmodalbody').innerHTML = '';
     $('#idmodalbody').append('<div id="idtableresponsivefuncons006" class="table-responsive-sm"></div>');
     $('#idtableresponsivefuncons006').append('<table id="idtablalistadodetalle" class="table table-hover table-bordered table-condensed table-sm"></table>');
@@ -182,7 +182,7 @@ function funconstructor007() {
         $('#idfilaheadtablalistadodetalle').append('<th>ID_Sensor</th>');
         $('#idfilaheadtablalistadodetalle').append('<th>Sensor</th>');
         $('#idfilaheadtablalistadodetalle').append('<th>Tipo</th>');
-        $('#idfilaheadtablalistadodetalle').append('<th>Fecha</th>');      
+        $('#idfilaheadtablalistadodetalle').append('<th>Fecha</th>');
         $('#idfilaheadtablalistadodetalle').append('<th>IP</th>');
         $('#idfilaheadtablalistadodetalle').append('<th>-</th>');
     document.getElementById('idfoottablalistadodetalle').innerHTML = '';
@@ -192,10 +192,37 @@ function funconstructor007() {
         $('#idfilafoottablalistadodetalle').append('<th>ID_Sensor</th>');
         $('#idfilafoottablalistadodetalle').append('<th>Sensor</th>');
         $('#idfilafoottablalistadodetalle').append('<th>Tipo</th>');
-        $('#idfilafoottablalistadodetalle').append('<th>Fecha</th>');      
+        $('#idfilafoottablalistadodetalle').append('<th>Fecha</th>');
         $('#idfilafoottablalistadodetalle').append('<th>IP</th>');
-        $('#idfilafoottablalistadodetalle').append('<th>-</th>');        
+        $('#idfilafoottablalistadodetalle').append('<th>-</th>');
 
     document.getElementById('idbodytablalistadodetalle').innerHTML = '';
+
+}
+
+/* construye la estructura interna de la tabla de lista de sensores */
+function funconstructor008() {
+
+    document.getElementById('idcaptiontablalistado').innerHTML = 'Listado de Sensores';
+    document.getElementById('idheadtablalistado').innerHTML = '';
+    $('#idheadtablalistado').append('<tr id="idfilaheadtablalistado" class="thead-dark"></tr>');
+        $('#idfilaheadtablalistado').append('<th>Item</th>');
+        $('#idfilaheadtablalistado').append('<th>ID</th>');
+        $('#idfilaheadtablalistado').append('<th>Sensor</th>');
+        $('#idfilaheadtablalistado').append('<th>Tipo</th>');
+        $('#idfilaheadtablalistado').append('<th>IP</th>');
+        $('#idfilaheadtablalistado').append('<th>-</th>');
+        $('#idfilaheadtablalistado').append('<th>-</th>');
+    document.getElementById('idfoottablalistado').innerHTML = '';
+    $('#idfoottablalistado').append('<tr id="idfilafoottablalistado" class="thead-dark"></tr>');
+        $('#idfilafoottablalistado').append('<th>Item</th>');
+        $('#idfilafoottablalistado').append('<th>ID</th>');
+        $('#idfilafoottablalistado').append('<th>Sensor</th>');
+        $('#idfilafoottablalistado').append('<th>Tipo</th>');
+        $('#idfilafoottablalistado').append('<th>IP</th>');
+        $('#idfilafoottablalistado').append('<th>-</th>');
+        $('#idfilafoottablalistado').append('<th>-</th>');
+
+    document.getElementById('idbodytablalistado').innerHTML = '';
 
 }

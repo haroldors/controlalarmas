@@ -46,13 +46,13 @@ $varselect -> execute(
 /* el siguiente codigo verifica que por post se este enviando el parametro varproceso */
 if (isset($_POST['varproceso'])) {
     $varproceso = ($_POST['varproceso']);
-    
+
     switch($varproceso):
-    /* el siguiente proceso cierra la sesion */    
+    /* el siguiente proceso cierra la sesion */
 
     /*este proceso recupera la data de la tabla de monitoreo*/
     case "002":
-        
+
         $varcadenaretorno = "";
         $varrs = $conexion -> prepare('SELECT a.*,b.nombretiposensor FROM sensores a LEFT JOIN tiposensores b ON a.idtiposensor = b.idtiposensor ORDER BY nombresensor');
         $varrs->execute();
@@ -71,9 +71,9 @@ if (isset($_POST['varproceso'])) {
                     echo "&#59";
                     echo $vardatoscolumnas['ipautorizadasensor'];
                     echo "&#59";
-                    echo $vardatoscolumnas['alarmasensor'];  
+                    echo $vardatoscolumnas['alarmasensor'];
                     echo "&#59";
-                    echo $vardatoscolumnas['idsensor'];                      
+                    echo $vardatoscolumnas['idsensor'];
                     echo "&#124";
                 }
             }
@@ -86,7 +86,7 @@ if (isset($_POST['varproceso'])) {
 
     /*este proceso recupera la data de la tabla de detalle de reportes de un sensor*/
     case "004":
-        
+
         $varcadenaretorno = "";
         $varrs = $conexion -> prepare('SELECT a.*,b.nombresensor,c.nombretiposensor FROM reportessensores a LEFT JOIN sensores b ON a.idsensor =b.idsensor LEFT JOIN tiposensores c ON b.idtiposensor =c.idtiposensor WHERE a.idsensor =? ORDER BY a.idreportesensor DESC');
         $varrs->execute( array(
@@ -110,15 +110,53 @@ if (isset($_POST['varproceso'])) {
                     echo "&#59";
                     echo $vardatoscolumnas['fechalargaregistro'];
                     echo "&#59";
-                    echo $vardatoscolumnas['ipsensor'];  
+                    echo $vardatoscolumnas['ipsensor'];
                     echo "&#59";
-                    echo $vardatoscolumnas['reportesensor'];                      
+                    echo $vardatoscolumnas['reportesensor'];
                     echo "&#124";
                 }
             }
         else
             {
                 echo"004;SinDatos";
+            }
+        $varrs = null;
+    break;
+
+    /*este proceso recupera la lista de sensores*/
+    case "005":
+
+        $varcadenaretorno = "";
+        $varrs = $conexion -> prepare('SELECT a.*, b.nombretiposensor FROM sensores a LEFT JOIN tiposensores b ON a.idtiposensor=b.idtiposensor ORDER BY a.nombresensor DESC');
+        $varrs->execute();
+        $totalregistros = $varrs->rowcount();
+        if($totalregistros > 0)
+            {
+                printf("005;ConDatos;");
+                $varresultados = $varrs -> fetchall();
+                foreach($varresultados as $vardatoscolumnas) {
+
+                    echo $vardatoscolumnas['idsensor'];
+                    echo "&#59";
+                    echo $vardatoscolumnas['idsensor'];
+                    echo "&#59";
+                    echo $vardatoscolumnas['nombresensor'];
+                    echo "&#59";
+                    echo $vardatoscolumnas['nombretiposensor'];
+                    echo "&#59";
+                    echo $vardatoscolumnas['ipautorizadasensor'];
+                    echo "&#59";
+                    echo $vardatoscolumnas['estadosensor'];
+                    echo "&#59";
+                    echo $vardatoscolumnas['alarmasensor'];
+                    echo "&#59";
+                    echo $vardatoscolumnas['idsensor'];
+                    echo "&#124";
+                }
+            }
+        else
+            {
+                echo"005;SinDatos";
             }
         $varrs = null;
     break;

@@ -58,12 +58,8 @@ function handleHttpResponse() {
                         /* funconstructor042(); *//* crea la estructura de la tabla del body del panel */
                         /* funconstructor062(); *//*Crea Estructura de encabezado para Tabla de Codigos de Articulos*/
                         funrecorrerdataparadatatable('idtablalistado', 'idfilaheadtablalistado', 'idbodytablalistado', results[2]);
-/*                         document.getElementById('idcaptiontablalistado').innerHTML = 'Codigos de Articulos [' + results[2] + ']';
-                        funiconoentabla('idtablalistado', 6, 'fa fa-check-square-o fa-1x', 'color:green;font-size:14px', 'Habilitado', 'Verdadero');
-                        funiconoentabla('idtablalistado', 6, 'fa fa-window-close-o fa-1x', 'color:Red;font-size:14px', 'Deshabilitado', 'Falso');
-                        funAsignaFuncionenTabla('idbodytablalistado', 1, 'link053', 'fa fa-pencil-square-o fa-1x', 'Editar','font-size:14px'); */
                         funiconoentabla('idtablalistado', 5, 'fas fa-siren-on', 'color:red;font-size:14px', 'Alarma', '0');
-                        funiconoentabla('idtablalistado', 5, 'fas fa-siren fa-3x', 'color:green;font-size:14px', 'Normal', '1');                        
+                        funiconoentabla('idtablalistado', 5, 'fas fa-siren fa-3x', 'color:green;font-size:14px', 'Normal', '1');
                         funasignafuncionentabla('idbodytablalistado', 6, 'link004', 'fa fa-search-plus', 'Editar','font-size:14px');
                         $('#idtablalistado').dataTable({
                             columnDefs: [ { orderable: false, targets: [ 5, 6 ] } ],
@@ -99,21 +95,27 @@ function handleHttpResponse() {
                         funmensajedeenvio();
                         abrirmodalformulario();
                         funconstructor006();
-                        funconstructor007();                        
-                        /* funconstructor042(); *//* crea la estructura de la tabla del body del panel */
-                        /* funconstructor062(); *//*Crea Estructura de encabezado para Tabla de Codigos de Articulos*/
+                        funconstructor007();
                         funrecorrerdataparadatatable('idtablalistadodetalle', 'idfilaheadtablalistadodetalle', 'idbodytablalistadodetalle', results[2]);
                         funiconoentabla('idtablalistadodetalle', 7, 'fas fa-siren-on', 'color:red;font-size:14px', 'Alarma', '0');
                         funiconoentabla('idtablalistadodetalle', 7, 'fas fa-siren fa-3x', 'color:green;font-size:14px', 'Normal', '1');
-/*                         document.getElementById('idcaptiontablalistado').innerHTML = 'Codigos de Articulos [' + results[2] + ']';
-                        funiconoentabla('idtablalistado', 6, 'fa fa-check-square-o fa-1x', 'color:green;font-size:14px', 'Habilitado', 'Verdadero');
-                        funiconoentabla('idtablalistado', 6, 'fa fa-window-close-o fa-1x', 'color:Red;font-size:14px', 'Deshabilitado', 'Falso');
-                        funAsignaFuncionenTabla('idbodytablalistado', 1, 'link053', 'fa fa-pencil-square-o fa-1x', 'Editar','font-size:14px'); */
+                    } else {
+                        funmensajedeenvio();
+                        document.getElementById('idcaptiontablalistadodetalle').innerHTML = 'Codigos de Articulos [0]';
+                    }
+                };
 
-                        /* funasignafuncionentabla('idbodytablalistadodetalle', 5, 'link004', 'fa fa-search-plus', 'Editar','font-size:14px'); */
-
-/*                         $('#idtablalistadodetalle').dataTable({
-                            columnDefs: [ { orderable: false, targets: [ 1, 5 ] } ],
+                if (results[0] == "005") {
+                    if (results[1] == "ConDatos") {
+                        funmensajedeenvio();
+                        /* funconstructor042(); *//* crea la estructura de la tabla del body del panel */
+                        /* funconstructor062(); *//*Crea Estructura de encabezado para Tabla de Codigos de Articulos*/
+                        funrecorrerdataparadatatable('idtablalistado', 'idfilaheadtablalistado', 'idbodytablalistado', results[2]);
+                        funiconoentabla('idtablalistado', 5, 'fas fa-siren-on', 'color:red;font-size:14px', 'Alarma', '0');
+                        funiconoentabla('idtablalistado', 5, 'fas fa-siren fa-3x', 'color:green;font-size:14px', 'Normal', '1');
+                        funasignafuncionentabla('idbodytablalistado', 6, 'link004', 'fa fa-search-plus', 'Editar','font-size:14px');
+                        $('#idtablalistado').dataTable({
+                            columnDefs: [ { orderable: false, targets: [ 5, 6 ] } ],
                             pageLength: -1,
                             lengthMenu: [[25, 50, 100, -1], [25, 50, 100, "Todos"]],
                             "language": {
@@ -132,14 +134,15 @@ function handleHttpResponse() {
                                 },
                             "scrollX": true
                             }
-                        }); */
+                        });
                         /*funlanzarDatatable('IDTablaListado');*/
 
                     } else {
                         funmensajedeenvio();
-                        document.getElementById('idcaptiontablalistadodetalle').innerHTML = 'Codigos de Articulos [0]';
+                        document.getElementById('idcaptiontablalistado').innerHTML = 'Codigos de Articulos [0]';
                     }
                 };
+
 
             }
         }
