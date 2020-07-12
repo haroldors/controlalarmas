@@ -101,8 +101,8 @@ function handleHttpResponse() {
                         /* funconstructor042(); *//* crea la estructura de la tabla del body del panel */
                         /* funconstructor062(); *//*Crea Estructura de encabezado para Tabla de Codigos de Articulos*/
                         funrecorrerdataparadatatable('idtablalistadodetalle', 'idfilaheadtablalistadodetalle', 'idbodytablalistadodetalle', results[2]);
-                        funiconoentabla('idtablalistadodetalle', 5, 'fas fa-siren-on', 'color:red;font-size:14px', 'Alarma', '0');
-                        funiconoentabla('idtablalistadodetalle', 5, 'fas fa-siren fa-3x', 'color:green;font-size:14px', 'Normal', '1');
+                        funiconoentabla('idtablalistadodetalle', 7, 'fas fa-siren-on', 'color:red;font-size:14px', 'Alarma', '0');
+                        funiconoentabla('idtablalistadodetalle', 7, 'fas fa-siren fa-3x', 'color:green;font-size:14px', 'Normal', '1');
 /*                         document.getElementById('idcaptiontablalistado').innerHTML = 'Codigos de Articulos [' + results[2] + ']';
                         funiconoentabla('idtablalistado', 6, 'fa fa-check-square-o fa-1x', 'color:green;font-size:14px', 'Habilitado', 'Verdadero');
                         funiconoentabla('idtablalistado', 6, 'fa fa-window-close-o fa-1x', 'color:Red;font-size:14px', 'Deshabilitado', 'Falso');
