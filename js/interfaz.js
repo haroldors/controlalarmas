@@ -65,7 +65,7 @@ function handleHttpResponse() {
                         
                         $('#idtablalistado').dataTable({
                             columnDefs: [ { orderable: false, targets: [ 1, 5 ] } ],
-                            pageLength: 25,
+                            pageLength: -1,
                             lengthMenu: [[25, 50, 100, -1], [25, 50, 100, "Todos"]],
                             "language": {
                                 "lengthMenu": "Mostrar _MENU_ registros por pagina",
