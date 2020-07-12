@@ -58,6 +58,7 @@ function link003() {
     if (document.getElementById('idcolumnaderechafuncons002').className == 'col-xs-12 col-sm-3') {
 		/* document.getElementById('idcolumnaderechafuncons002').className = 'col-xs-12'; */
 		document.getElementById('idcolumnaderechafuncons002').style.display='none';
+		document.getElementById('idcolumnaizquierdafuncons002').className='col-xs-12';
 		/* document.getElementById('idcolumnaizquierdafuncons002').className = 'col-xs-12 col-sm-3'; */
 /*         document.getElementById('idlinkredimencion').className = 'fa fa-plus-square-o fa-1x';
         document.getElementById('idcolumnaderecha').className = 'col-xs-12';
