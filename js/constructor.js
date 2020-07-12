@@ -56,7 +56,7 @@ function funconstructor002() {
     /*se crea la barra menu superior del menu global*/
     document.body.innerHTML = "";
     $('body').append('<nav id="idnavbarfuncons002" class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark"></nav>');
-        $('#idnavbarfuncons002').append('<button id="idbuttonfuncons002" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation"></button>');
+        $('#idnavbarfuncons002').append('<button id="idbuttonfuncons002" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#iddivcollapsefuncons002" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation"></button>');
             $('#idbuttonfuncons002').append('<span class="navbar-toggler-icon"></span>');
         $('#idnavbarfuncons002').append('<div id="iddivcollapsefuncons002" class="collapse navbar-collapse" id="navbarTogglerDemo01"></div>');
             $('#iddivcollapsefuncons002').append('<a class="navbar-brand" href="#">Brainiac</a>    ');
