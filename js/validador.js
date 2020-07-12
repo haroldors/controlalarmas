@@ -96,6 +96,25 @@ function link002() {
 				'',
 				''
 				), 2000);
+
+		/*el siguiente codigo se ejecuta la momento de dar click en el boton refresh*/
+		document.getElementById('idbuttonrefreshfuncons009').onclick = function() {
+			funmensajedeenvio();
+			window.setTimeout(
+				funenvio10parametros(
+					5,
+					'',
+					'',
+					'',
+					'',
+					'',
+					'',
+					'',
+					'',
+					'',
+					''
+					), 2000);
+		}
 	}
 
 }
