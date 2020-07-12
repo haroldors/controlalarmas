@@ -134,6 +134,13 @@ function link002() {
 				'',
 				''
 				);
+
+			/*el siguiente codigo realiza la validacion del formulario*/
+			document.getElementById('idbuttonguardarfuncons010').onclick = function() {
+				if(confirm('Esta Seguro de Registrar el Nuevo Sensor?')) {
+					funmensajedeenvio();
+				}
+			}
 		}
 
 	}
