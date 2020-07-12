@@ -33,3 +33,41 @@ function funenvio10parametros(varprocesox, varparametro1x, varparametro2x, varpa
     parametrosdeurl = parametrosdeurl + "&varparametro10=" + encodeURIComponent(varparametro10x);
     enviosegundoplano(url, parametrosdeurl);
 }
+
+function funrecorrerdataparadatatable(vartablax, varencabezadotablax, varcuerpotablax, vardatadetablax) {
+    var contador = 0;
+    var varcadenaenfilasx = vardatadetablax.split("&#124");
+    var varcantidaddefilas = varcadenaenfilasx.length - 1;
+
+    do {
+        funcargardataendatatable(vartablax, varencabezadotablax, varcuerpotablax, varcadenaenfilasx[contador]);
+        contador++;
+    } while (contador < varcantidaddefilas);
+}
+
+function funcargardataendatatable(vartablax, varencabezadotablax, varcuerpotablax, varcadenax) {
+
+    var varestringx = varcadenax.split("&#59");
+    var tabla = document.getElementById(vartablax);
+    /*console.log(tabla.rows.length);*/
+    var TotalFilas = tabla.rows.length - 1;
+
+    var encabezado = document.getElementById(varencabezadotablax);
+    var totalCeldas = encabezado.cells.length;
+
+    var cuerpo = document.getElementById(varcuerpotablax);
+    var tr = document.createElement('tr');
+    cuerpo.appendChild(tr);
+    var celda = document.createElement('td');
+    var textocelda = document.createTextNode(TotalFilas);
+    cuerpo.appendChild(tr);
+    tr.appendChild(celda);
+    celda.appendChild(textocelda);
+    var cnt=0;
+    for (cnt = 1; cnt < totalCeldas; cnt++) {
+        celda = document.createElement('td');
+        textocelda = document.createTextNode(varestringx[cnt - 1]);
+        tr.appendChild(celda);
+        celda.appendChild(textocelda);
+    }
+}
