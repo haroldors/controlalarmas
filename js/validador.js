@@ -18,7 +18,7 @@ function link002() {
 	document.getElementById('idlipanelfuncons002').onclick = function() {
 		if (document.getElementById('idcolumnaderechafuncons002').style.display == 'none') {
 			document.getElementById('idcolumnaderechafuncons002').style.display='block';
-			document.getElementById('idcolumnaizquierdafuncons002').className='col-9';
+			document.getElementById('idcolumnaizquierdafuncons002').className='col-12 col-md-9';
 		}
 	}
 
